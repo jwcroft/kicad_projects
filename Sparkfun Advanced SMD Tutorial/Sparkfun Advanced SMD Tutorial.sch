@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Sparkfun Advanced SMD Tutorial-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -373,9 +374,9 @@ Wire Wire Line
 Wire Wire Line
 	7750 3650 7750 3750
 Text Label 7850 3450 2    50   ~ 0
-3V3
++3V3
 Text Label 7850 3550 2    50   ~ 0
-5V
++5V
 Connection ~ 5150 2650
 Wire Wire Line
 	5150 2650 5150 3050
@@ -393,4 +394,54 @@ Wire Wire Line
 	2400 3650 2300 3650
 Connection ~ 2400 3650
 NoConn ~ 2700 3450
+NoConn ~ 6650 3750
+NoConn ~ 6650 3850
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5B426808
+P -450 2550
+F 0 "#FLG0101" H -450 2625 50  0001 C CNN
+F 1 "PWR_FLAG" H -450 2724 50  0000 C CNN
+F 2 "" H -450 2550 50  0001 C CNN
+F 3 "~" H -450 2550 50  0001 C CNN
+	1    -450 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDPWR #PWR0111
+U 1 1 5B42689C
+P -50 2550
+F 0 "#PWR0111" H -50 2350 50  0001 C CNN
+F 1 "GNDPWR" H -46 2396 50  0000 C CNN
+F 2 "" H -50 2500 50  0001 C CNN
+F 3 "" H -50 2500 50  0001 C CNN
+	1    -50  2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0112
+U 1 1 5B4269BC
+P -450 2250
+F 0 "#PWR0112" H -450 2100 50  0001 C CNN
+F 1 "+5V" H -435 2423 50  0000 C CNN
+F 2 "" H -450 2250 50  0001 C CNN
+F 3 "" H -450 2250 50  0001 C CNN
+	1    -450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5B42727C
+P -50 2250
+F 0 "#PWR0114" H -50 2000 50  0001 C CNN
+F 1 "GND" H -45 2077 50  0000 C CNN
+F 2 "" H -50 2250 50  0001 C CNN
+F 3 "" H -50 2250 50  0001 C CNN
+	1    -50  2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-50  2250 -50  2550
+Wire Wire Line
+	-450 2550 -450 2250
 $EndSCHEMATC
