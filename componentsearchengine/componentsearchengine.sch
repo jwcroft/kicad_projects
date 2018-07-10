@@ -43,7 +43,7 @@ P -150 2150
 F 0 "#FLG01" H -150 2225 50  0001 C CNN
 F 1 "PWR_FLAG" V -150 2278 50  0000 L CNN
 F 2 "" H -150 2150 50  0001 C CNN
-F 3 "~" H -150 2150 50  0001 C CNN
+F 3 "" H -150 2150 50  0001 C CNN
 	1    -150 2150
 	0    -1   -1   0   
 $EndComp
@@ -65,7 +65,7 @@ P -150 2450
 F 0 "#FLG02" H -150 2525 50  0001 C CNN
 F 1 "PWR_FLAG" V -150 2578 50  0000 L CNN
 F 2 "" H -150 2450 50  0001 C CNN
-F 3 "~" H -150 2450 50  0001 C CNN
+F 3 "" H -150 2450 50  0001 C CNN
 	1    -150 2450
 	0    -1   -1   0   
 $EndComp
@@ -107,4 +107,29 @@ $EndComp
 Wire Wire Line
 	2550 2550 2550 2400
 Connection ~ 2550 2400
+$Comp
+L ADS1299-4PAG:ADS1299-4PAG U1
+U 1 1 5B454C4D
+P 2550 4800
+F 0 "U1" H 2550 6567 50  0000 C CNN
+F 1 "ADS1299-4PAG" H 2550 6476 50  0000 C CNN
+F 2 "prj_lib_fp:xQFP_64_to_2.54mm_adapter" H 4050 5900 50  0001 L BNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1299-4.pdf" H 4000 6200 50  0001 L BNN
+F 4 "Low-Noise, 4-Channel, 24-Bit Analog-to-Digital Converter for Biopotential Measurements 64-TQFP -40 to 85" H 4000 6100 50  0001 L BNN "Description"
+F 5 "2707750" H 1947 6605 50  0001 L BNN "Farnell Part"
+F 6 "http://se.farnell.com/texas-instruments/ads1299-4pag/adc-quad-24-bits-16ksps-tqfp-64/dp/2707750" H 1847 6505 50  0001 L BNN "Farnell URL"
+	1    2550 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Counter_Clockwise J1
+U 1 1 5B4550CF
+P 4450 4450
+F 0 "J1" H 4500 4767 50  0000 C CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 4500 4676 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4450 4450 50  0001 C CNN
+F 3 "~" H 4450 4450 50  0001 C CNN
+	1    4450 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
