@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# X1G004481001512
+#
+DEF X1G004481001512 Y 0 30 Y Y 1 F N
+F0 "Y" 1150 300 50 H V L CNN
+F1 "X1G004481001512" 1150 200 50 H V L CNN
+F2 "SG7050" 1150 100 50 H I L CNN
+F3 "http://uk.rs-online.com/web/p/products/9047821" 1150 0 50 H I L CNN
+F4 "X1G004481001512, Crystal Oscillator, 40 MHz CMOS 15pF, 4-Pin, 7 x 5 x 1.3mm" 1150 -100 50 H I L CNN "Description"
+F5 "Epson Timing" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F6 "X1G004481001512" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "9047821" 1150 -500 50 H I L CNN "RS Part Number"
+F8 "http://uk.rs-online.com/web/p/products/9047821" 1150 -600 50 H I L CNN "RS Price/Stock"
+F9 "X1G004481001512" 1150 -700 50 H I L CNN "Arrow Part Number"
+F10 "http://uk.rs-online.com/web/p/products/9047821" 1150 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -200 200 -200 200 100 N
+X OE_OR_~ST 1 0 0 200 R 50 50 0 0 I
+X GND 2 0 -100 200 R 50 50 0 0 W
+X OUT 3 1300 0 200 L 50 50 0 0 O
+X VCC 4 1300 -100 200 L 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+#End Library

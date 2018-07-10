@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP X1G004481001512
+D X1G004481001512, Crystal Oscillator, 40 MHz CMOS 15pF, 4-Pin, 7 x 5 x 1.3mm
+F http://uk.rs-online.com/web/p/products/9047821
+$ENDCMP
+#
+#End Doc Library
