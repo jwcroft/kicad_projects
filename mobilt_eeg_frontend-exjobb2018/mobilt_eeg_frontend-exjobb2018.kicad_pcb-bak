@@ -34,11 +34,11 @@
   )
 
   (setup
-    (last_trace_width 0.2)
-    (trace_clearance 0.2)
+    (last_trace_width 0.25)
+    (trace_clearance 0.25)
     (zone_clearance 0.508)
     (zone_45_only no)
-    (trace_min 0.1524)
+    (trace_min 0.25)
     (segment_width 0.1)
     (edge_width 0.1)
     (via_size 0.9)
@@ -124,12 +124,14 @@
   (net 31 "/GPIO21(SPI1_SCK)")
 
   (net_class Default "This is the default net class."
-    (clearance 0.2)
-    (trace_width 0.2)
+    (clearance 0.25)
+    (trace_width 0.25)
     (via_dia 0.9)
     (via_drill 0.6)
     (uvia_dia 0.5)
     (uvia_drill 0.1)
+    (diff_pair_gap 0.25)
+    (diff_pair_width 0.25)
     (add_net +3V3)
     (add_net +5V)
     (add_net "/GPIO10(SPI0_MOSI)")
@@ -164,12 +166,14 @@
   )
 
   (net_class Power ""
-    (clearance 0.2)
+    (clearance 0.25)
     (trace_width 0.5)
     (via_dia 1)
     (via_drill 0.7)
     (uvia_dia 0.5)
     (uvia_drill 0.1)
+    (diff_pair_gap 0.25)
+    (diff_pair_width 0.25)
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical (layer B.Cu) (tedit 5A19A433) (tstamp 5A793E9F)
