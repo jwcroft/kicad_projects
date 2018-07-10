@@ -2,15 +2,15 @@ EESchema Schematic File Version 4
 LIBS:mobilt_eeg_frontend-exjobb2018-cache
 EELAYER 26 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
-Title ""
-Date "15 nov 2012"
-Rev ""
+Title "Mobilt EEG ADC Extension Board for Raspberry Pi 2/3 B+"
+Date "2018-07-10"
+Rev "B"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "John Croft"
+Comment2 "Examensarbete: Mobilt EEG"
 Comment3 ""
 Comment4 ""
 $EndDescr
