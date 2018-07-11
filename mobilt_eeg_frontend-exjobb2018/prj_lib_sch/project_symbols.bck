@@ -1,3 +1,8 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP X1G0044810050_SG7050CAN_2.048_MHZ
+D X1G0044810050 SG7050CAN 2.048 MHZ -  Oscillator, SPXO, 2,048 MHz, SMD, 7mm x 5mm, 3,3V, SG7050CAN-serien
+F http://www.farnell.com/datasheets/1841779.pdf
+$ENDCMP
+#
 #End Doc Library
