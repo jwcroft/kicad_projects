@@ -321,20 +321,6 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# power:VDDA
-#
-DEF power:VDDA #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:VDDA" 0 150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 75 25 0 1 0 N
-P 2 0 1 0 0 0 0 50 N
-X VDDA 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # power:VSSA
 #
 DEF power:VSSA #PWR 0 0 Y Y 1 F P
@@ -426,6 +412,34 @@ X RESERVED 64 900 -500 100 L 40 40 0 0 O
 X IN5N 7 -900 900 100 R 40 40 0 0 I
 X IN5P 8 -900 800 100 R 40 40 0 0 I
 X IN4N 9 -900 700 100 R 40 40 0 0 I
+ENDDRAW
+ENDDEF
+#
+# project_symbols:AVDD
+#
+DEF project_symbols:AVDD #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "project_symbols:AVDD" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X AVDD 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# project_symbols:AVSS
+#
+DEF project_symbols:AVSS #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "project_symbols:AVSS" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X AVSS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

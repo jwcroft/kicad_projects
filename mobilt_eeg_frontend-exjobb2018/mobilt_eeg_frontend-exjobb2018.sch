@@ -489,12 +489,6 @@ $EndComp
 NoConn ~ 10450 3600
 NoConn ~ 10450 3700
 NoConn ~ 10450 4400
-NoConn ~ 10450 4900
-NoConn ~ 10450 5000
-NoConn ~ 10450 5100
-NoConn ~ 10450 2500
-NoConn ~ 10450 2600
-NoConn ~ 10450 2700
 Wire Notes Line
 	12900 850  12900 1850
 Text Notes 11600 850  0    50   ~ 0
@@ -733,17 +727,6 @@ Text Label 4300 2550 2    50   ~ 0
 BIASINV
 Text Label 4300 2650 2    50   ~ 0
 BIASREF
-$Comp
-L power:GNDA #PWR?
-U 1 1 5B5C9A56
-P 1750 1150
-F 0 "#PWR?" H 1750 900 50  0001 C CNN
-F 1 "GNDA" H 1755 977 50  0000 C CNN
-F 2 "" H 1750 1150 50  0001 C CNN
-F 3 "" H 1750 1150 50  0001 C CNN
-	1    1750 1150
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1750 1150 1750 1350
 $Comp
@@ -834,8 +817,8 @@ Connection ~ 8650 5000
 Wire Wire Line
 	8650 4900 8650 5000
 Wire Wire Line
-	8650 4600 7800 4600
-Text Label 7800 4600 0    50   ~ 0
+	8650 4600 7500 4600
+Text Label 7500 4600 0    50   ~ 0
 START
 Text Label 8300 4000 0    50   ~ 0
 VREFN
@@ -892,28 +875,6 @@ Connection ~ 13100 6100
 Wire Wire Line
 	13100 6400 13500 6400
 Connection ~ 13100 6400
-$Comp
-L power:VSSA #PWR?
-U 1 1 5B68FA16
-P 2000 1150
-F 0 "#PWR?" H 2000 1000 50  0001 C CNN
-F 1 "VSSA" H 2017 1323 50  0000 C CNN
-F 2 "" H 2000 1150 50  0001 C CNN
-F 3 "" H 2000 1150 50  0001 C CNN
-	1    2000 1150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDDA #PWR?
-U 1 1 5B68FB64
-P 2250 1150
-F 0 "#PWR?" H 2250 1000 50  0001 C CNN
-F 1 "VDDA" H 2267 1323 50  0000 C CNN
-F 2 "" H 2250 1150 50  0001 C CNN
-F 3 "" H 2250 1150 50  0001 C CNN
-	1    2250 1150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5B68FB98
@@ -1105,4 +1066,71 @@ Wire Wire Line
 	13400 8550 13850 8550
 Text Notes 13400 6700 0    50   ~ 0
 Tantalum?
+Wire Wire Line
+	10450 5100 11200 5100
+Wire Wire Line
+	10450 5000 11200 5000
+Text Label 11200 5000 2    50   ~ 0
+AVSS@2
+Wire Wire Line
+	10450 4900 11200 4900
+Text Label 11200 4900 2    50   ~ 0
+AVSS@1
+Text Label 11550 4500 2    50   ~ 0
+~DRDY
+Wire Wire Line
+	11550 4500 10450 4500
+Wire Wire Line
+	10450 2700 11200 2700
+Text Label 11200 2700 2    50   ~ 0
+AVDD1
+Text Notes 10850 2650 0    39   ~ 0
+<-Charge pump analog supply. \nConnect 1uF to AVSS@2, pin 58.
+Text Label 10500 2600 0    50   ~ 0
+AVDD@2
+Wire Wire Line
+	10450 2600 10500 2600
+Text Notes 11250 5000 0    50   ~ 0
+<-Charge pump analog ground.
+Text Label 13850 9000 0    50   ~ 0
+AVSS@2
+Text Label 12900 9000 2    50   ~ 0
+AVDD@2
+$Comp
+L Device:C C?
+U 1 1 5B873DA5
+P 13250 9000
+F 0 "C?" V 12998 9000 50  0000 C CNN
+F 1 "1uF" V 13089 9000 50  0000 C CNN
+F 2 "" H 13288 8850 50  0001 C CNN
+F 3 "~" H 13250 9000 50  0001 C CNN
+	1    13250 9000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12900 9000 13100 9000
+Wire Wire Line
+	13400 9000 13850 9000
+$Comp
+L project_symbols:AVDD #PWR?
+U 1 1 5B483C31
+P 2250 1150
+F 0 "#PWR?" H 2250 1000 50  0001 C CNN
+F 1 "AVDD" H 2267 1323 50  0000 C CNN
+F 2 "" H 2250 1150 50  0001 C CNN
+F 3 "" H 2250 1150 50  0001 C CNN
+	1    2250 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L project_symbols:AVSS #PWR?
+U 1 1 5B483CC3
+P 2000 1150
+F 0 "#PWR?" H 2000 1000 50  0001 C CNN
+F 1 "AVSS" H 2017 1323 50  0000 C CNN
+F 2 "" H 2000 1150 50  0001 C CNN
+F 3 "" H 2000 1150 50  0001 C CNN
+	1    2000 1150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
