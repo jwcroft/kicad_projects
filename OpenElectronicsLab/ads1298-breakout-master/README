@@ -1,0 +1,30 @@
+The ads1298-breakout project is a break-out board for the Texas Instruments
+ADS1298 chip.
+
+Project goals include:
+ * suitable for assembly by those with minimal surface mount experience
+ * anti-aliasing filters for out-of-the-box use
+
+The board does not include electrical isolation, thus must not be used
+with human subjects if connected to a computer connected to wall power.
+External isolation can be added, see:
+http://github.com/kms15/digital-isolator
+(Alternatively, a laptop running from battery may be okay).
+
+The board should work with the ADS1294, ADS1296, and ADS1299 chips, also.
+
+The digital power (DVDD) and digital I/O for the ADS129x chips are 3 volts,
+so if used with a 5 volt controler like an Arduino Uno, level shifting is
+required. For example:
+https://github.com/OpenElectronicsLab/level-shifter
+
+Important:
+C33-48 and R33-64 are _potential_ values for a high
+pass filter that you may or may not need.  Don't solder
+these in to more than one of the pairs of inputs until
+you're sure this is a good idea.  If you solder a wire
+across the capacitor and leave the two resistors out,
+this bypasses the filter.
+
+This project was extracted from the eeg-mouse project:
+http://openelectronicslab.github.io/eeg-mouse

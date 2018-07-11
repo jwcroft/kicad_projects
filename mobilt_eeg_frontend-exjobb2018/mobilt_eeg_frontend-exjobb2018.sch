@@ -248,14 +248,14 @@ Wire Wire Line
 $Comp
 L project_symbols:X1G0044810050_SG7050CAN_2.048_MHZ X1
 U 1 1 5B452FB5
-P 5950 4600
-F 0 "X1" H 5950 4925 50  0000 C CNN
-F 1 "X1G0044810050_SG7050CAN_2.048_MHZ" H 5950 4834 50  0000 C CNN
-F 2 "prj_lib_fp:SG0705" H 5900 4600 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1841779.pdf" H 5250 5050 50  0001 C CNN
-F 4 "2442953" H 4450 5150 50  0001 C CNN "Farnell Part"
-F 5 "http://se.farnell.com/epson/x1g0044810050-sg7050can-2-048-mhz/oscillator-spxo-sg7050can-2-048/dp/2442953" H 6650 5250 50  0001 C CNN "Farnell URL"
-	1    5950 4600
+P 5300 4600
+F 0 "X1" H 5300 4925 50  0000 C CNN
+F 1 "X1G0044810050_SG7050CAN_2.048_MHZ" H 5300 4834 50  0000 C CNN
+F 2 "prj_lib_fp:SG0705" H 5250 4600 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1841779.pdf" H 4600 5050 50  0001 C CNN
+F 4 "2442953" H 3800 5150 50  0001 C CNN "Farnell Part"
+F 5 "http://se.farnell.com/epson/x1g0044810050-sg7050can-2-048-mhz/oscillator-spxo-sg7050can-2-048/dp/2442953" H 6000 5250 50  0001 C CNN "Farnell URL"
+	1    5300 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -311,12 +311,12 @@ Wire Wire Line
 Wire Wire Line
 	-800 950  -800 1150
 Wire Wire Line
-	5050 4500 5400 4500
+	4400 4500 4750 4500
 Wire Wire Line
-	5400 4650 5400 4500
-Connection ~ 5400 4500
+	4750 4650 4750 4500
+Connection ~ 4750 4500
 Wire Wire Line
-	6600 4650 6500 4650
+	5950 4650 5850 4650
 NoConn ~ 1250 1200
 NoConn ~ 1250 1300
 NoConn ~ 1250 1400
@@ -344,26 +344,26 @@ NoConn ~ 3950 3000
 $Comp
 L Device:C_Small C1
 U 1 1 5B46310B
-P 5950 4900
-F 0 "C1" V 6050 4900 50  0000 C CNN
-F 1 "0.1uF" V 5850 4900 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5950 4900 50  0001 C CNN
-F 3 "~" H 5950 4900 50  0001 C CNN
-	1    5950 4900
+P 5300 4900
+F 0 "C1" V 5400 4900 50  0000 C CNN
+F 1 "0.1uF" V 5200 4900 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5300 4900 50  0001 C CNN
+F 3 "~" H 5300 4900 50  0001 C CNN
+	1    5300 4900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6600 4650 6600 4900
+	5950 4650 5950 4900
 Wire Wire Line
-	6050 4900 6600 4900
-Connection ~ 6600 4900
+	5400 4900 5950 4900
+Connection ~ 5950 4900
 Wire Wire Line
-	6600 4900 6600 5000
+	5950 4900 5950 5000
 Wire Wire Line
-	5850 4900 5400 4900
+	5200 4900 4750 4900
 Wire Wire Line
-	5400 4900 5400 4650
-Connection ~ 5400 4650
+	4750 4900 4750 4650
+Connection ~ 4750 4650
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5B467A40
@@ -378,7 +378,7 @@ $EndComp
 Wire Wire Line
 	-1150 950  -1150 1150
 Wire Wire Line
-	6500 4500 8650 4500
+	5850 4500 8650 4500
 $Comp
 L project_symbols:ADS1299-4PAG U1
 U 1 1 5B462F68
@@ -421,8 +421,6 @@ Text Label 1950 1100 0    50   ~ 0
 +3V3
 Text Label 1950 1900 0    50   ~ 0
 +3V3
-Wire Wire Line
-	10450 5200 10550 5200
 Wire Wire Line
 	10550 5200 10550 5300
 $Comp
@@ -492,12 +490,12 @@ $EndComp
 $Comp
 L power:GNDD #PWR0107
 U 1 1 5B466EBF
-P 6600 5000
-F 0 "#PWR0107" H 6600 4750 50  0001 C CNN
-F 1 "GNDD" H 6604 4845 50  0000 C CNN
-F 2 "" H 6600 5000 50  0001 C CNN
-F 3 "" H 6600 5000 50  0001 C CNN
-	1    6600 5000
+P 5950 5000
+F 0 "#PWR0107" H 5950 4750 50  0001 C CNN
+F 1 "GNDD" H 5954 4845 50  0000 C CNN
+F 2 "" H 5950 5000 50  0001 C CNN
+F 3 "" H 5950 5000 50  0001 C CNN
+	1    5950 5000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -552,18 +550,6 @@ NoConn ~ 8650 5000
 NoConn ~ 8650 5100
 NoConn ~ 8650 5200
 NoConn ~ 8650 4600
-NoConn ~ 8650 2400
-NoConn ~ 8650 2500
-NoConn ~ 8650 2600
-NoConn ~ 8650 2700
-NoConn ~ 8650 2800
-NoConn ~ 8650 2900
-NoConn ~ 8650 3000
-NoConn ~ 8650 3100
-NoConn ~ 8650 3400
-NoConn ~ 8650 3500
-NoConn ~ 8650 3600
-NoConn ~ 8650 3700
 NoConn ~ 8650 4000
 NoConn ~ 8650 4100
 NoConn ~ 10450 2500
@@ -583,17 +569,17 @@ Wire Wire Line
 	11200 2800 10450 2800
 Text Label 11200 2800 2    50   ~ 0
 DVDD
-Text Label 5050 4500 0    50   ~ 0
+Text Label 4400 4500 0    50   ~ 0
 DVDD
 Wire Notes Line
-	5000 4200 6800 4200
+	4350 4200 6150 4200
 Wire Notes Line
-	6800 4200 6800 5250
+	6150 4200 6150 5250
 Wire Notes Line
-	6800 5250 5000 5250
+	6150 5250 4350 5250
 Wire Notes Line
-	5000 5250 5000 4200
-Text Notes 5000 4200 0    50   ~ 0
+	4350 5250 4350 4200
+Text Notes 4350 4200 0    50   ~ 0
 External Oscillator
 $Comp
 L Device:R R2
@@ -640,14 +626,60 @@ Text Label 7300 3850 1    50   ~ 0
 DVDD
 Text Notes 7150 3850 2    50   ~ 0
 RESET can be trig'd via SPI cmd.\nPWDN only possible in HW.
-Text Label 7800 3900 0    50   ~ 0
-IN1_P
-Text Label 7800 3800 0    50   ~ 0
-IN1_N
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J?
+U 1 1 5B4BB278
+P 8050 3500
+F 0 "J?" H 8100 4017 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 8100 3926 50  0000 C CNN
+F 2 "" H 8050 3500 50  0001 C CNN
+F 3 "~" H 8050 3500 50  0001 C CNN
+	1    8050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J?
+U 1 1 5B4BB482
+P 7350 2700
+F 0 "J?" H 7400 3217 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 7400 3126 50  0000 C CNN
+F 2 "" H 7350 2700 50  0001 C CNN
+F 3 "~" H 7350 2700 50  0001 C CNN
+	1    7350 2700
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	7800 3800 8650 3800
+	10450 5200 10550 5200
 Wire Wire Line
-	8650 3900 7800 3900
-NoConn ~ 8650 3300
-NoConn ~ 8650 3200
+	8350 3200 8650 3200
+Wire Wire Line
+	8350 3300 8650 3300
+Wire Wire Line
+	8350 3400 8650 3400
+Wire Wire Line
+	8350 3500 8650 3500
+Wire Wire Line
+	8350 3600 8650 3600
+Wire Wire Line
+	8350 3700 8650 3700
+Wire Wire Line
+	8350 3800 8650 3800
+Wire Wire Line
+	8350 3900 8650 3900
+Wire Wire Line
+	7650 2400 8650 2400
+Wire Wire Line
+	7650 2500 8650 2500
+Wire Wire Line
+	7650 2600 8650 2600
+Wire Wire Line
+	7650 2700 8650 2700
+Wire Wire Line
+	7650 2800 8650 2800
+Wire Wire Line
+	7650 2900 8650 2900
+Wire Wire Line
+	7650 3000 8650 3000
+Wire Wire Line
+	7650 3100 8650 3100
 $EndSCHEMATC
