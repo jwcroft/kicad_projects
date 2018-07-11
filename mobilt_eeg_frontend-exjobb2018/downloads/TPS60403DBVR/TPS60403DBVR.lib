@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# TPS60403DBVR
+#
+DEF TPS60403DBVR U 0 40 Y Y 1 L N
+F0 "U" -218 505 50 H V L BNN
+F1 "TPS60403DBVR" -192 -785 50 H V L BNN
+F2 "SOT95P280X145-5N" 0 0 50 H I L BNN
+F3 "0.83 USD" 0 0 50 H I L BNN
+F4 "Good" 0 0 50 H I L BNN
+F5 "Texas Instruments" 0 0 50 H I L BNN
+F6 "60mA Charge Pump Voltage Inverter with Fixed 250kHz Operation 5-SOT-23 -40 to 85" 0 0 50 H I L BNN
+F7 "TPS60403DBVR" 0 0 50 H I L BNN
+F8 "SOT-23-5 Texas Instruments" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 400 -500 -600 N
+P 2 0 0 16 -500 -600 500 -600 N
+P 2 0 0 16 500 -600 500 400 N
+P 2 0 0 16 500 400 -500 400 N
+X CFLY+ 5 -700 200 200 R 40 40 0 0 I 
+X IN 2 -700 0 200 R 40 40 0 0 W 
+X CFLY 3 -700 -200 200 R 40 40 0 0 I 
+X GND 4 -700 -400 200 R 40 40 0 0 P 
+X OUT 1 700 200 200 L 40 40 0 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library

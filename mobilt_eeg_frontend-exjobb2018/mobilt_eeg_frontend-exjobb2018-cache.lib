@@ -1,6 +1,29 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Generic:Conn_01x04
+#
+DEF Connector_Generic:Conn_01x04 J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Generic:Conn_01x04" 0 -300 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 150 50 -250 1 1 10 f
+X Pin_1 1 -200 100 150 R 50 50 1 1 P
+X Pin_2 2 -200 0 150 R 50 50 1 1 P
+X Pin_3 3 -200 -100 150 R 50 50 1 1 P
+X Pin_4 4 -200 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Generic:Conn_02x04_Odd_Even
 #
 DEF Connector_Generic:Conn_02x04_Odd_Even J 0 40 Y N 1 F N
@@ -250,6 +273,23 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Device:R_Small
+#
+DEF Device:R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device:R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Mechanical:Mounting_Hole
 #
 DEF Mechanical:Mounting_Hole MK 0 40 Y Y 1 F N
@@ -263,6 +303,26 @@ $FPLIST
 $ENDFPLIST
 DRAW
 C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# Switch:SW_DIP_x01
+#
+DEF Switch:SW_DIP_x01 SW 0 0 Y N 1 F N
+F0 "SW" 0 150 50 H V C CNN
+F1 "Switch:SW_DIP_x01" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SW?DIP?x1*
+$ENDFPLIST
+DRAW
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+S -150 100 150 -100 0 1 10 f
+P 2 0 0 0 -60 5 93 46 N
+X ~ 1 -300 0 200 R 50 50 1 1 P
+X ~ 2 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -415,6 +475,19 @@ X IN4N 9 -900 700 100 R 40 40 0 0 I
 ENDDRAW
 ENDDEF
 #
+# project_symbols:AGND
+#
+DEF project_symbols:AGND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "project_symbols:AGND" 0 -125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X AGND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # project_symbols:AVDD
 #
 DEF project_symbols:AVDD #PWR 0 0 Y Y 1 F P
@@ -440,6 +513,132 @@ DRAW
 C 0 75 25 0 1 0 N
 P 2 0 1 0 0 0 0 50 N
 X AVSS 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# project_symbols:DGND
+#
+DEF project_symbols:DGND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "project_symbols:DGND" 0 -125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 -60 50 -80 0 1 10 F
+P 2 0 1 0 0 0 0 -60 N
+X DGND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# project_symbols:DVDD
+#
+DEF project_symbols:DVDD #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "project_symbols:DVDD" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 75 25 0 1 0 N
+P 2 0 1 0 0 0 0 50 N
+X DVDD 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# project_symbols:TPS60403DBVR
+#
+DEF project_symbols:TPS60403DBVR U 0 40 Y Y 1 L N
+F0 "U" -500 550 50 H V L BNN
+F1 "project_symbols:TPS60403DBVR" -500 450 50 H V L BNN
+F2 "SOT95P280X145-5N" 0 0 50 H I L BNN
+F3 "0.83 USD" 0 0 50 H I L BNN
+F4 "Good" 0 0 50 H I L BNN
+F5 "Texas Instruments" 0 0 50 H I L BNN
+F6 "60mA Charge Pump Voltage Inverter with Fixed 250kHz Operation 5-SOT-23 -40 to 85" 0 0 50 H I L BNN
+F7 "TPS60403DBVR" 0 0 50 H I L BNN
+F8 "SOT-23-5 Texas Instruments" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -400 -400 400 -400 N
+P 2 0 0 16 -400 400 -400 -400 N
+P 2 0 0 16 400 -400 400 400 N
+P 2 0 0 16 400 400 -400 400 N
+X OUT 1 600 200 200 L 40 40 0 0 w
+X IN 2 -600 200 200 R 40 40 0 0 W
+X CFLY- 3 -600 0 200 R 40 40 0 0 I
+X GND 4 0 -600 200 U 40 40 0 0 W
+X CFLY+ 5 -600 -200 200 R 40 40 0 0 I
+ENDDRAW
+ENDDEF
+#
+# project_symbols:TPS72325DBVT
+#
+DEF project_symbols:TPS72325DBVT U 0 40 Y Y 1 L N
+F0 "U" -228 470 50 H V L BNN
+F1 "project_symbols:TPS72325DBVT" -111 -737 50 H V L BNN
+F2 "SOT95P280X145-5N" 0 0 50 H I L BNN
+F3 "Texas Instruments" 0 0 50 H I L BNN
+F4 "200mA, Negative Output Low-Dropout Linear Regulator 5-SOT-23 -40 to 125" 0 0 50 H I L BNN
+F5 "SOT-23-5 Texas Instruments" 0 0 50 H I L BNN
+F6 "TPS72325DBVT" 0 0 50 H I L BNN
+F7 "Good" 0 0 50 H I L BNN
+F8 "2.14 USD" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -400 -200 400 -200 N
+P 2 0 0 16 -400 400 -400 -200 N
+P 2 0 0 16 400 -200 400 400 N
+P 2 0 0 16 400 400 -400 400 N
+X GND 1 0 -400 200 U 40 40 0 0 W
+X IN 2 -600 200 200 R 40 40 0 0 W
+X EN 3 -600 0 200 R 40 40 0 0 I
+X NR 4 600 0 200 L 40 40 0 0 P
+X OUT 5 600 200 200 L 40 40 0 0 w
+ENDDRAW
+ENDDEF
+#
+# project_symbols:TPS73225DBVT
+#
+DEF project_symbols:TPS73225DBVT U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L BNN
+F1 "project_symbols:TPS73225DBVT" -400 450 50 H V L BNN
+F2 "SOT95P280X145-5N" 0 0 50 H I L BNN
+F3 "Texas Instruments" 0 0 50 H I L BNN
+F4 "Cap-Free, NMOS, 250mA Low Dropout Regulator with Reverse Current Protection 5-SOT-23 -40 to 125" 0 0 50 H I L BNN
+F5 "SOT-23-5 Texas Instruments" 0 0 50 H I L BNN
+F6 "TPS73225DBVT" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -400 -200 400 -200 N
+P 2 0 0 16 -400 400 -400 -200 N
+P 2 0 0 16 400 -200 400 400 N
+P 2 0 0 16 400 400 -400 400 N
+X IN 1 -600 200 200 R 40 40 0 0 W
+X GND 2 0 -400 200 U 40 40 0 0 W
+X EN 3 -600 0 200 R 40 40 0 0 I
+X NR/FB 4 600 0 200 L 40 40 0 0 I
+X OUT 5 600 200 200 L 40 40 0 0 w
+ENDDRAW
+ENDDEF
+#
+# project_symbols:TPS73233DBVT
+#
+DEF project_symbols:TPS73233DBVT U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L BNN
+F1 "project_symbols:TPS73233DBVT" -400 450 50 H V L BNN
+F2 "SOT95P280X145-5N" 0 0 50 H I L BNN
+F3 "Texas Instruments" 0 0 50 H I L BNN
+F4 "Cap-Free, NMOS, 250mA Low Dropout Regulator with Reverse Current Protection 5-SOT-23 -40 to 125" 0 0 50 H I L BNN
+F5 "SOT-23-5 Texas Instruments" 0 0 50 H I L BNN
+F6 "TPS73233DBVT" 0 0 50 H I L BNN
+F7 "Good" 0 0 50 H I L BNN
+F8 "1.02 USD" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -400 -200 400 -200 N
+P 2 0 0 16 -400 400 -400 -200 N
+P 2 0 0 16 400 -200 400 400 N
+P 2 0 0 16 400 400 -400 400 N
+X IN 1 -600 200 200 R 40 40 0 0 W
+X GND 2 0 -400 200 U 40 40 0 0 W
+X EN 3 -600 0 200 R 40 40 0 0 I
+X NR/FB 4 600 0 200 L 40 40 0 0 I
+X OUT 5 600 200 200 L 40 40 0 0 w
 ENDDRAW
 ENDDEF
 #

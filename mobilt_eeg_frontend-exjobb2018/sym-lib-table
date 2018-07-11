@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name project_symbols)(type Legacy)(uri ${KIPRJMOD}/prj_lib_sch/project_symbols.lib)(options "")(descr ""))
   (lib (name ADS1299-4PAG)(type Legacy)(uri ${KIPRJMOD}/prj_lib_sch/ADS1299-4PAG.lib)(options "")(descr ""))
+  (lib (name TPS73233DBVT)(type Legacy)(uri E:/git_projects/kicad/mobilt_eeg_frontend-exjobb2018/downloads/TPS73233DBVT/TPS73233DBVT.lib)(options "")(descr ""))
 )
