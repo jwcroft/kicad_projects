@@ -32,17 +32,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 1200 2900 1200
 Connection ~ 3100 1100
-$Comp
-L power:GND #PWR02
-U 1 1 580C1D11
-P 3000 3150
-F 0 "#PWR02" H 3000 2900 50  0001 C CNN
-F 1 "GND" H 3000 3000 50  0000 C CNN
-F 2 "" H 3000 3150 50  0000 C CNN
-F 3 "" H 3000 3150 50  0000 C CNN
-	1    3000 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3000 1300 3000 1700
 Wire Wire Line
@@ -56,17 +45,6 @@ Connection ~ 3000 2500
 Wire Wire Line
 	3000 1700 2900 1700
 Connection ~ 3000 2000
-$Comp
-L power:GND #PWR03
-U 1 1 580C1E01
-P 2300 3150
-F 0 "#PWR03" H 2300 2900 50  0001 C CNN
-F 1 "GND" H 2300 3000 50  0000 C CNN
-F 2 "" H 2300 3150 50  0000 C CNN
-F 3 "" H 2300 3150 50  0000 C CNN
-	1    2300 3150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2300 3000 2400 3000
 Wire Wire Line
@@ -270,14 +248,14 @@ Wire Wire Line
 $Comp
 L project_symbols:X1G0044810050_SG7050CAN_2.048_MHZ X1
 U 1 1 5B452FB5
-P 6950 6450
-F 0 "X1" H 6950 6775 50  0000 C CNN
-F 1 "X1G0044810050_SG7050CAN_2.048_MHZ" H 6950 6684 50  0000 C CNN
-F 2 "prj_lib_fp:SG0705" H 6900 6450 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/1841779.pdf" H 6250 6900 50  0001 C CNN
-F 4 "2442953" H 5450 7000 50  0001 C CNN "Farnell Part"
-F 5 "http://se.farnell.com/epson/x1g0044810050-sg7050can-2-048-mhz/oscillator-spxo-sg7050can-2-048/dp/2442953" H 7650 7100 50  0001 C CNN "Farnell URL"
-	1    6950 6450
+P 5950 4600
+F 0 "X1" H 5950 4925 50  0000 C CNN
+F 1 "X1G0044810050_SG7050CAN_2.048_MHZ" H 5950 4834 50  0000 C CNN
+F 2 "prj_lib_fp:SG0705" H 5900 4600 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1841779.pdf" H 5250 5050 50  0001 C CNN
+F 4 "2442953" H 4450 5150 50  0001 C CNN "Farnell Part"
+F 5 "http://se.farnell.com/epson/x1g0044810050-sg7050can-2-048-mhz/oscillator-spxo-sg7050can-2-048/dp/2442953" H 6650 5250 50  0001 C CNN "Farnell URL"
+	1    5950 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -332,37 +310,13 @@ Wire Wire Line
 	-350 1150 -350 950 
 Wire Wire Line
 	-800 950  -800 1150
-$Comp
-L power:+3.3V #PWR0103
-U 1 1 5B45A84F
-P 6050 6150
-F 0 "#PWR0103" H 6050 6000 50  0001 C CNN
-F 1 "+3.3V" H 6050 6290 50  0000 C CNN
-F 2 "" H 6050 6150 50  0000 C CNN
-F 3 "" H 6050 6150 50  0000 C CNN
-	1    6050 6150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	6050 6150 6050 6350
+	5050 4500 5400 4500
 Wire Wire Line
-	6050 6350 6400 6350
+	5400 4650 5400 4500
+Connection ~ 5400 4500
 Wire Wire Line
-	6400 6500 6400 6350
-Connection ~ 6400 6350
-$Comp
-L power:GND #PWR0104
-U 1 1 5B45C725
-P 7600 6850
-F 0 "#PWR0104" H 7600 6600 50  0001 C CNN
-F 1 "GND" H 7600 6700 50  0000 C CNN
-F 2 "" H 7600 6850 50  0000 C CNN
-F 3 "" H 7600 6850 50  0000 C CNN
-	1    7600 6850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7600 6500 7500 6500
+	6600 4650 6500 4650
 NoConn ~ 1250 1200
 NoConn ~ 1250 1300
 NoConn ~ 1250 1400
@@ -390,37 +344,26 @@ NoConn ~ 3950 3000
 $Comp
 L Device:C_Small C1
 U 1 1 5B46310B
-P 6950 6750
-F 0 "C1" V 7050 6750 50  0000 C CNN
-F 1 "0.1uF" V 6850 6750 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6950 6750 50  0001 C CNN
-F 3 "~" H 6950 6750 50  0001 C CNN
-	1    6950 6750
+P 5950 4900
+F 0 "C1" V 6050 4900 50  0000 C CNN
+F 1 "0.1uF" V 5850 4900 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5950 4900 50  0001 C CNN
+F 3 "~" H 5950 4900 50  0001 C CNN
+	1    5950 4900
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7600 6500 7600 6750
+	6600 4650 6600 4900
 Wire Wire Line
-	7050 6750 7600 6750
-Connection ~ 7600 6750
+	6050 4900 6600 4900
+Connection ~ 6600 4900
 Wire Wire Line
-	7600 6750 7600 6850
+	6600 4900 6600 5000
 Wire Wire Line
-	6850 6750 6400 6750
+	5850 4900 5400 4900
 Wire Wire Line
-	6400 6750 6400 6500
-Connection ~ 6400 6500
-$Comp
-L power:GND #PWR0105
-U 1 1 5B467931
-P -1150 1150
-F 0 "#PWR0105" H -1150 900 50  0001 C CNN
-F 1 "GND" H -1150 1000 50  0000 C CNN
-F 2 "" H -1150 1150 50  0000 C CNN
-F 3 "" H -1150 1150 50  0000 C CNN
-	1    -1150 1150
-	1    0    0    -1  
-$EndComp
+	5400 4900 5400 4650
+Connection ~ 5400 4650
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5B467A40
@@ -435,81 +378,276 @@ $EndComp
 Wire Wire Line
 	-1150 950  -1150 1150
 Wire Wire Line
-	7500 6350 9200 6350
+	6500 4500 8650 4500
 $Comp
 L project_symbols:ADS1299-4PAG U1
 U 1 1 5B462F68
-P 10100 5750
-F 0 "U1" H 10100 7517 50  0000 C CNN
-F 1 "ADS1299-4PAG" H 10100 7426 50  0000 C CNN
-F 2 "xQFP_64_to_2.54mm_adapter" H 11600 6850 50  0001 L BNN
-F 3 "http://www.ti.com/lit/ds/symlink/ads1299-4.pdf" H 11550 7150 50  0001 L BNN
-F 4 "Low-Noise, 4-Channel, 24-Bit Analog-to-Digital Converter for Biopotential Measurements 64-TQFP -40 to 85" H 11550 7050 50  0001 L BNN "Description"
-F 5 "2707750" H 9497 7555 50  0001 L BNN "Farnell Part"
-F 6 "http://se.farnell.com/texas-instruments/ads1299-4pag/adc-quad-24-bits-16ksps-tqfp-64/dp/2707750" H 9397 7455 50  0001 L BNN "Farnell URL"
-	1    10100 5750
+P 9550 3900
+F 0 "U1" H 9550 5667 50  0000 C CNN
+F 1 "ADS1299-4PAG" H 9550 5576 50  0000 C CNN
+F 2 "prj_lib_fp:xQFP_64_to_2.54mm_adapter" H 11050 5000 50  0001 L BNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1299-4.pdf" H 11000 5300 50  0001 L BNN
+F 4 "Low-Noise, 4-Channel, 24-Bit Analog-to-Digital Converter for Biopotential Measurements 64-TQFP -40 to 85" H 11000 5200 50  0001 L BNN "Description"
+F 5 "2707750" H 8947 5705 50  0001 L BNN "Farnell Part"
+F 6 "http://se.farnell.com/texas-instruments/ads1299-4pag/adc-quad-24-bits-16ksps-tqfp-64/dp/2707750" H 8847 5605 50  0001 L BNN "Farnell URL"
+	1    9550 3900
 	1    0    0    -1  
 $EndComp
-Text Label 8350 6050 0    50   ~ 0
+Text Label 7800 4200 0    50   ~ 0
 GPIO10(SPI0_MOSI)
 Wire Wire Line
-	8350 6050 9200 6050
-Text Label 11750 5150 2    50   ~ 0
+	7800 4200 8650 4200
+Text Label 11200 3300 2    50   ~ 0
 GPIO9(SPI0_MISO)
 Wire Wire Line
-	11000 5150 11750 5150
+	10450 3300 11200 3300
 Wire Wire Line
-	9200 6650 8350 6650
-Text Label 8350 6650 0    50   ~ 0
+	8650 4800 7800 4800
+Text Label 7800 4800 0    50   ~ 0
 GPIO11(SPI0_SCK)
-Text Label 8350 6550 0    50   ~ 0
+Text Label 7800 4700 0    50   ~ 0
 GPIO8(SPI0_CE_N)
 Wire Wire Line
-	8350 6550 9200 6550
-Text Label 11750 4850 2    50   ~ 0
+	7800 4700 8650 4700
+Text Label 11200 3000 2    50   ~ 0
 GPIO4
-Text Label 11750 4950 2    50   ~ 0
+Text Label 11200 3100 2    50   ~ 0
 GPIO3
-Text Label 11750 5050 2    50   ~ 0
+Text Label 11200 3200 2    50   ~ 0
 GPIO2
-Text Label 11750 5250 2    50   ~ 0
+Text Label 11200 3400 2    50   ~ 0
 GPIO1
-Wire Wire Line
-	11000 5250 11750 5250
-Wire Wire Line
-	11750 4950 11000 4950
-Wire Wire Line
-	11000 4850 11750 4850
-Wire Wire Line
-	11000 5050 11750 5050
 Text Label 1950 1100 0    50   ~ 0
 +3V3
 Text Label 1950 1900 0    50   ~ 0
 +3V3
+Wire Wire Line
+	10450 5200 10550 5200
+Wire Wire Line
+	10550 5200 10550 5300
 $Comp
-L power:GND #PWR0106
-U 1 1 5B479C6F
-P 12150 4500
-F 0 "#PWR0106" H 12150 4250 50  0001 C CNN
-F 1 "GND" H 12150 4350 50  0000 C CNN
-F 2 "" H 12150 4500 50  0000 C CNN
-F 3 "" H 12150 4500 50  0000 C CNN
-	1    12150 4500
+L Connector_Generic:Conn_02x04_Odd_Even J1
+U 1 1 5B456A77
+P 12100 3300
+F 0 "J1" H 12150 2875 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 12150 2966 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 12100 3300 50  0001 C CNN
+F 3 "~" H 12100 3300 50  0001 C CNN
+	1    12100 3300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10450 3400 11900 3400
+Wire Wire Line
+	11900 3300 11700 3300
+Wire Wire Line
+	11700 3300 11700 3200
+Wire Wire Line
+	10450 3200 11700 3200
+Wire Wire Line
+	11900 3200 11750 3200
+Wire Wire Line
+	11750 3200 11750 3100
+Wire Wire Line
+	10450 3100 11750 3100
+Wire Wire Line
+	11900 3100 11800 3100
+Wire Wire Line
+	11800 3100 11800 3000
+Wire Wire Line
+	10450 3000 11800 3000
+Wire Wire Line
+	12400 3100 12400 3200
+Wire Wire Line
+	12400 3200 12400 3300
+Connection ~ 12400 3200
+Wire Wire Line
+	12400 3300 12400 3400
+Connection ~ 12400 3300
+Wire Wire Line
+	12400 3400 12400 3500
+Connection ~ 12400 3400
+$Comp
+L power:GNDD #PWR0104
+U 1 1 5B466A38
+P 10550 5300
+F 0 "#PWR0104" H 10550 5050 50  0001 C CNN
+F 1 "GNDD" H 10554 5145 50  0000 C CNN
+F 2 "" H 10550 5300 50  0001 C CNN
+F 3 "" H 10550 5300 50  0001 C CNN
+	1    10550 5300
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
-U 1 1 5B47B937
-P 11100 7150
-F 0 "#PWR?" H 11100 6900 50  0001 C CNN
-F 1 "GND" H 11100 7000 50  0000 C CNN
-F 2 "" H 11100 7150 50  0000 C CNN
-F 3 "" H 11100 7150 50  0000 C CNN
-	1    11100 7150
+L power:GNDD #PWR0105
+U 1 1 5B466DE7
+P 12400 3500
+F 0 "#PWR0105" H 12400 3250 50  0001 C CNN
+F 1 "GNDD" H 12404 3345 50  0000 C CNN
+F 2 "" H 12400 3500 50  0001 C CNN
+F 3 "" H 12400 3500 50  0001 C CNN
+	1    12400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0107
+U 1 1 5B466EBF
+P 6600 5000
+F 0 "#PWR0107" H 6600 4750 50  0001 C CNN
+F 1 "GNDD" H 6604 4845 50  0000 C CNN
+F 2 "" H 6600 5000 50  0001 C CNN
+F 3 "" H 6600 5000 50  0001 C CNN
+	1    6600 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0108
+U 1 1 5B46722C
+P 3000 3150
+F 0 "#PWR0108" H 3000 2900 50  0001 C CNN
+F 1 "GNDD" H 3004 2995 50  0000 C CNN
+F 2 "" H 3000 3150 50  0001 C CNN
+F 3 "" H 3000 3150 50  0001 C CNN
+	1    3000 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0109
+U 1 1 5B467375
+P 2300 3150
+F 0 "#PWR0109" H 2300 2900 50  0001 C CNN
+F 1 "GNDD" H 2304 2995 50  0000 C CNN
+F 2 "" H 2300 3150 50  0001 C CNN
+F 3 "" H 2300 3150 50  0001 C CNN
+	1    2300 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR0110
+U 1 1 5B467581
+P -1150 1150
+F 0 "#PWR0110" H -1150 900 50  0001 C CNN
+F 1 "GNDD" H -1146 995 50  0000 C CNN
+F 2 "" H -1150 1150 50  0001 C CNN
+F 3 "" H -1150 1150 50  0001 C CNN
+	1    -1150 1150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10450 3500
+NoConn ~ 10450 3600
+NoConn ~ 10450 3700
+NoConn ~ 10450 3800
+NoConn ~ 10450 3900
+NoConn ~ 10450 4000
+NoConn ~ 10450 4400
+NoConn ~ 10450 4500
+NoConn ~ 10450 4600
+NoConn ~ 10450 4700
+NoConn ~ 10450 4800
+NoConn ~ 10450 4900
+NoConn ~ 10450 5000
+NoConn ~ 10450 5100
+NoConn ~ 8650 4900
+NoConn ~ 8650 5000
+NoConn ~ 8650 5100
+NoConn ~ 8650 5200
+NoConn ~ 8650 4600
+NoConn ~ 8650 2400
+NoConn ~ 8650 2500
+NoConn ~ 8650 2600
+NoConn ~ 8650 2700
+NoConn ~ 8650 2800
+NoConn ~ 8650 2900
+NoConn ~ 8650 3000
+NoConn ~ 8650 3100
+NoConn ~ 8650 3400
+NoConn ~ 8650 3500
+NoConn ~ 8650 3600
+NoConn ~ 8650 3700
+NoConn ~ 8650 4000
+NoConn ~ 8650 4100
+NoConn ~ 10450 2500
+NoConn ~ 10450 2600
+NoConn ~ 10450 2700
+Wire Notes Line
+	11500 2800 12750 2800
+Wire Notes Line
+	12750 2800 12750 3800
+Wire Notes Line
+	12750 3800 11500 3800
+Wire Notes Line
+	11500 2800 11500 3800
+Text Notes 11500 2800 0    50   ~ 0
+ADC GPIO Header\n
+Wire Wire Line
+	11200 2800 10450 2800
+Text Label 11200 2800 2    50   ~ 0
+DVDD
+Text Label 5050 4500 0    50   ~ 0
+DVDD
+Wire Notes Line
+	5000 4200 6800 4200
+Wire Notes Line
+	6800 4200 6800 5250
+Wire Notes Line
+	6800 5250 5000 5250
+Wire Notes Line
+	5000 5250 5000 4200
+Text Notes 5000 4200 0    50   ~ 0
+External Oscillator
+$Comp
+L Device:R R2
+U 1 1 5B492FAD
+P 7450 4100
+F 0 "R2" H 7520 4146 50  0000 L CNN
+F 1 "10k" H 7520 4055 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7380 4100 50  0001 C CNN
+F 3 "~" H 7450 4100 50  0001 C CNN
+	1    7450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5B493009
+P 7150 4100
+F 0 "R1" H 7220 4146 50  0000 L CNN
+F 1 "10k" H 7220 4055 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7080 4100 50  0001 C CNN
+F 3 "~" H 7150 4100 50  0001 C CNN
+	1    7150 4100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	11000 7050 11100 7050
+	8650 4300 7450 4300
 Wire Wire Line
-	11100 7050 11100 7150
+	7450 4300 7450 4250
+Wire Wire Line
+	8650 4400 7150 4400
+Wire Wire Line
+	7150 4400 7150 4250
+Text Label 7800 4300 0    50   ~ 0
+~PWDN
+Text Label 7800 4400 0    50   ~ 0
+~RESET
+Wire Wire Line
+	7150 3950 7300 3950
+Wire Wire Line
+	7300 3950 7300 3850
+Connection ~ 7300 3950
+Wire Wire Line
+	7300 3950 7450 3950
+Text Label 7300 3850 1    50   ~ 0
+DVDD
+Text Notes 7150 3850 2    50   ~ 0
+RESET can be trig'd via SPI cmd.\nPWDN only possible in HW.
+Text Label 7800 3900 0    50   ~ 0
+IN1_P
+Text Label 7800 3800 0    50   ~ 0
+IN1_N
+Wire Wire Line
+	7800 3800 8650 3800
+Wire Wire Line
+	8650 3900 7800 3900
+NoConn ~ 8650 3300
+NoConn ~ 8650 3200
 $EndSCHEMATC
