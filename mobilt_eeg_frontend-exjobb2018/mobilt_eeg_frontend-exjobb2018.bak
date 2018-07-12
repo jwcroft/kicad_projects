@@ -2580,4 +2580,36 @@ Wire Wire Line
 	5850 6700 6700 6700
 Text Notes 6700 6550 0    50   ~ 0
 Test Point -5V
+Text Label 2950 5400 2    50   ~ 0
+IN1N
+Text Label 2950 4800 2    50   ~ 0
+IN2N
+Text Label 2950 4200 2    50   ~ 0
+IN3N
+Text Label 2950 3600 2    50   ~ 0
+IN4N
+Text Label 4800 5000 2    50   ~ 0
+IN5N
+Text Label 4800 5100 2    50   ~ 0
+IN6N
+Text Label 4800 5200 2    50   ~ 0
+IN7N
+Text Label 4800 5300 2    50   ~ 0
+IN8N
+Text Label 2950 5000 2    50   ~ 0
+IN1P
+Text Label 2950 4400 2    50   ~ 0
+IN2P
+Text Label 2950 3800 2    50   ~ 0
+IN3P
+Text Label 2950 3200 2    50   ~ 0
+IN4P
+Text Label 3950 5250 2    50   ~ 0
+IN5P
+Text Label 3950 5350 2    50   ~ 0
+IN6P
+Text Label 3950 5450 2    50   ~ 0
+IN7P
+Text Label 3950 5550 2    50   ~ 0
+IN8P
 $EndSCHEMATC

@@ -2612,4 +2612,20 @@ Text Label 3950 5450 2    50   ~ 0
 IN7P
 Text Label 3950 5550 2    50   ~ 0
 IN8P
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5BD5918B
+P 14000 6100
+F 0 "J?" H 14080 6142 50  0000 L CNN
+F 1 "Conn_01x01" H 14080 6051 50  0000 L CNN
+F 2 "" H 14000 6100 50  0001 C CNN
+F 3 "~" H 14000 6100 50  0001 C CNN
+	1    14000 6100
+	1    0    0    -1  
+$EndComp
+Text Notes 14200 6100 0    50   ~ 0
+Test Point INTERNAL_VREF 4.5V
+Wire Wire Line
+	13800 6100 13500 6100
+Connection ~ 13500 6100
 $EndSCHEMATC
