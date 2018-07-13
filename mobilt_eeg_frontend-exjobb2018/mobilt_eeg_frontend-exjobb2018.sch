@@ -404,17 +404,6 @@ Wire Wire Line
 Connection ~ 16750 1400
 Connection ~ 16750 1500
 $Comp
-L power:GNDD #PWR0104
-U 1 1 5B466A38
-P 10550 5300
-F 0 "#PWR0104" H 10550 5050 50  0001 C CNN
-F 1 "GNDD" H 10554 5145 50  0000 C CNN
-F 2 "" H 10550 5300 50  0001 C CNN
-F 3 "" H 10550 5300 50  0001 C CNN
-	1    10550 5300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GNDD #PWR0107
 U 1 1 5B466EBF
 P 8100 1700
@@ -1533,7 +1522,7 @@ Wire Wire Line
 Wire Wire Line
 	13200 1300 12950 1300
 Text Label 12950 1200 2    50   ~ 0
-+3V3
++3V3_Pi
 Wire Wire Line
 	12950 1200 13200 1200
 Wire Notes Line
@@ -3781,14 +3770,27 @@ F 3 "" H 18450 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L project_symbols:DGND #PWR?
+L project_symbols:DGND #PWR0111
 U 1 1 600A3D2E
 P 6800 5200
-F 0 "#PWR?" H 6800 4950 50  0001 C CNN
+F 0 "#PWR0111" H 6800 4950 50  0001 C CNN
 F 1 "DGND" H 6804 5045 50  0000 C CNN
 F 2 "" H 6800 5200 50  0001 C CNN
 F 3 "" H 6800 5200 50  0001 C CNN
 	1    6800 5200
+	1    0    0    -1  
+$EndComp
+Text Notes 12050 5650 0    50   ~ 0
+Star connect these ->
+$Comp
+L project_symbols:DGND #PWR0104
+U 1 1 600ACC50
+P 10550 5300
+F 0 "#PWR0104" H 10550 5050 50  0001 C CNN
+F 1 "DGND" H 10554 5145 50  0000 C CNN
+F 2 "" H 10550 5300 50  0001 C CNN
+F 3 "" H 10550 5300 50  0001 C CNN
+	1    10550 5300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
