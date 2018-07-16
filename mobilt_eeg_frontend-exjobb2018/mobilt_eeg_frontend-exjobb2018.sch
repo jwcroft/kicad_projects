@@ -117,10 +117,6 @@ Text Label 17400 1500 0    50   ~ 0
 GPIO3(SCL1)
 Text Label 17400 1600 0    50   ~ 0
 GPIO4(GCLK)
-Text Label 17400 1800 0    50   ~ 0
-GPIO17(GEN0)
-Text Label 17400 1900 0    50   ~ 0
-GPIO27(GEN2)
 Text Label 17400 2000 0    50   ~ 0
 GPIO22(GEN3)
 Text Label 17400 2200 0    50   ~ 0
@@ -131,8 +127,6 @@ Text Label 17400 2400 0    50   ~ 0
 GPIO11(SPI0_SCK)
 Text Label 17400 2600 0    50   ~ 0
 ID_SD
-Text Label 17400 2700 0    50   ~ 0
-GPIO5
 Text Label 17400 2800 0    50   ~ 0
 GPIO6
 Text Label 17400 2900 0    50   ~ 0
@@ -145,12 +139,8 @@ Text Label 20100 3100 2    50   ~ 0
 GPIO20(SPI1_MOSI)
 Text Label 20100 3000 2    50   ~ 0
 GPIO16
-Text Label 20100 2800 2    50   ~ 0
-GPIO12(PWM0)
 Text Label 20100 2600 2    50   ~ 0
 ID_SC
-Text Label 20100 2500 2    50   ~ 0
-GPIO7(SPI1_CE_N)
 Text Label 20100 2400 2    50   ~ 0
 GPIO8(SPI0_CE_N)
 Text Label 20100 2300 2    50   ~ 0
@@ -293,10 +283,8 @@ Connection ~ 6900 1000
 Wire Wire Line
 	8100 1150 8000 1150
 NoConn ~ 17400 1600
-NoConn ~ 17400 1800
 NoConn ~ 17400 1900
 NoConn ~ 17400 2000
-NoConn ~ 17400 2700
 NoConn ~ 17400 3000
 NoConn ~ 20100 1600
 NoConn ~ 20100 1700
@@ -304,8 +292,6 @@ NoConn ~ 20100 1800
 NoConn ~ 20100 2000
 NoConn ~ 20100 2100
 NoConn ~ 20100 2300
-NoConn ~ 20100 2500
-NoConn ~ 20100 2800
 NoConn ~ 20100 3100
 $Comp
 L Device:C_Small C1
@@ -341,20 +327,6 @@ F 3 "~" H 1150 1350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1150 1350 1150 1150
-$Comp
-L project_symbols:ADS1299-4PAG U1
-U 1 1 5B462F68
-P 9550 3900
-F 0 "U1" H 9550 5667 50  0000 C CNN
-F 1 "ADS1299-4PAG" H 9550 5576 50  0000 C CNN
-F 2 "prj_lib_fp:xQFP_64_to_2.54mm_adapter" H 11050 5000 50  0001 L BNN
-F 3 "http://www.ti.com/lit/ds/symlink/ads1299-4.pdf" H 11000 5300 50  0001 L BNN
-F 4 "Low-Noise, 4-Channel, 24-Bit Analog-to-Digital Converter for Biopotential Measurements 64-TQFP -40 to 85" H 11000 5200 50  0001 L BNN "Description"
-F 5 "2707750" H 8947 5705 50  0001 L BNN "Farnell Part"
-F 6 "http://se.farnell.com/texas-instruments/ads1299-4pag/adc-quad-24-bits-16ksps-tqfp-64/dp/2707750" H 8847 5605 50  0001 L BNN "Farnell URL"
-	1    9550 3900
-	1    0    0    -1  
-$EndComp
 Text Label 7800 4200 0    50   ~ 0
 GPIO10(SPI0_MOSI)
 Wire Wire Line
@@ -568,17 +540,6 @@ Wire Wire Line
 	8300 4000 8650 4000
 Wire Wire Line
 	8650 4100 9300 4100
-$Comp
-L power:GNDD #PWR0106
-U 1 1 5B65D7C1
-P 9300 4100
-F 0 "#PWR0106" H 9300 3850 50  0001 C CNN
-F 1 "GNDD" H 9304 3945 50  0000 C CNN
-F 2 "" H 9300 4100 50  0001 C CNN
-F 3 "" H 9300 4100 50  0001 C CNN
-	1    9300 4100
-	0    -1   -1   0   
-$EndComp
 Text Label 13050 2650 0    50   ~ 0
 VREFP
 Text Label 13050 2950 0    50   ~ 0
@@ -1890,9 +1851,9 @@ F 3 "~" H 2900 9100 50  0001 C CNN
 $EndComp
 Connection ~ 3000 8700
 Connection ~ 3000 9100
-Text Label 3450 9300 2    50   ~ 0
-SRB1
 Text Label 3450 9700 2    50   ~ 0
+SRB1
+Text Label 3450 9300 2    50   ~ 0
 SRB2
 Wire Wire Line
 	3000 8700 3450 8700
@@ -2229,17 +2190,6 @@ Text Label 3450 5050 2    50   ~ 0
 IN7P
 Text Label 3450 4450 2    50   ~ 0
 IN8P
-$Comp
-L Connector_Generic:Conn_01x01 J10
-U 1 1 5BD5918B
-P 14350 2650
-F 0 "J10" H 14430 2692 50  0000 L CNN
-F 1 "Conn_01x01" H 14430 2601 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 14350 2650 50  0001 C CNN
-F 3 "~" H 14350 2650 50  0001 C CNN
-	1    14350 2650
-	1    0    0    -1  
-$EndComp
 Text Notes 13500 2600 0    50   ~ 0
 Test Pad INTERNAL_VREF 4.5V
 Wire Wire Line
@@ -2692,56 +2642,31 @@ Post-Input filtering  \n(ease of measurement)
 $Comp
 L Connector_Generic:Conn_01x10 J5
 U 1 1 5C5FECBE
-P 5550 5500
-F 0 "J5" H 5630 5492 50  0000 L CNN
-F 1 "Data Header" H 5400 4900 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 5550 5500 50  0001 C CNN
-F 3 "~" H 5550 5500 50  0001 C CNN
-	1    5550 5500
+P 16550 3200
+F 0 "J5" H 16630 3192 50  0000 L CNN
+F 1 "Data Header" H 16400 2600 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 16550 3200 50  0001 C CNN
+F 3 "~" H 16550 3200 50  0001 C CNN
+	1    16550 3200
 	1    0    0    -1  
 $EndComp
-Text Notes 4500 4800 0    50   ~ 0
+Text Notes 15500 2500 0    50   ~ 0
 Data Header \nBetween ADS1299 & RasPi
 $Comp
 L project_symbols:DGND #PWR013
 U 1 1 5C6010BE
-P 5050 5100
-F 0 "#PWR013" H 5050 4850 50  0001 C CNN
-F 1 "DGND" H 5054 4945 50  0000 C CNN
-F 2 "" H 5050 5100 50  0001 C CNN
-F 3 "" H 5050 5100 50  0001 C CNN
-	1    5050 5100
+P 16050 2800
+F 0 "#PWR013" H 16050 2550 50  0001 C CNN
+F 1 "DGND" H 16054 2645 50  0000 C CNN
+F 2 "" H 16050 2800 50  0001 C CNN
+F 3 "" H 16050 2800 50  0001 C CNN
+	1    16050 2800
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5050 5100 5350 5100
-$Comp
-L Connector_Generic:Conn_01x01 J12
-U 1 1 5C67C118
-P 18050 1300
-F 0 "J12" H 18130 1342 50  0000 L CNN
-F 1 "Conn_01x01" H 18130 1251 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 18050 1300 50  0001 C CNN
-F 3 "~" H 18050 1300 50  0001 C CNN
-	1    18050 1300
-	-1   0    0    1   
-$EndComp
+	16050 2800 16350 2800
 Text Notes 17350 1200 0    50   ~ 0
 In case we need to bypass extern reg.
-$Comp
-L Connector_Generic:Conn_01x01 J4
-U 1 1 5C6F47CA
-P 10900 10750
-F 0 "J4" V 11000 10700 50  0000 L CNN
-F 1 "Conn_01x01" V 10900 10850 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 10900 10750 50  0001 C CNN
-F 3 "~" H 10900 10750 50  0001 C CNN
-	1    10900 10750
-	0    -1   -1   0   
-$EndComp
-Connection ~ 10900 10950
-Text Notes 11000 10750 0    50   ~ 0
-<-In case we need to bypass external reg.
 Wire Notes Line
 	3700 3950 2450 3950
 Wire Notes Line
@@ -2867,42 +2792,42 @@ Text Notes 3350 3000 0    50   ~ 0
 For 4ch., Rf=500k?
 Text Notes 4400 3200 0    50   ~ 0
 Cf sets bandwidth\nof Bias Amp.
-Text Label 4600 6000 0    50   ~ 0
+Text Label 15600 3700 0    50   ~ 0
 GPIO10(SPI0_MOSI)
-Text Label 4600 5900 0    50   ~ 0
+Text Label 15600 3600 0    50   ~ 0
 ~PWDN
-Text Label 4600 5800 0    50   ~ 0
+Text Label 15600 3500 0    50   ~ 0
 ~RESET
-Text Label 4600 5700 0    50   ~ 0
+Text Label 15600 3400 0    50   ~ 0
 XTAL
-Text Label 4600 5600 0    50   ~ 0
+Text Label 15600 3300 0    50   ~ 0
 START
-Text Label 4600 5500 0    50   ~ 0
+Text Label 15600 3200 0    50   ~ 0
 GPIO8(SPI0_CE_N)
-Text Label 4600 5400 0    50   ~ 0
+Text Label 15600 3100 0    50   ~ 0
 GPIO11(SPI0_SCK)
-Text Label 4600 5300 0    50   ~ 0
+Text Label 15600 3000 0    50   ~ 0
 GPIO9(SPI0_MISO)
-Text Label 4600 5200 0    50   ~ 0
+Text Label 15600 2900 0    50   ~ 0
 ~DRDY
 Wire Wire Line
-	5350 5200 4600 5200
+	16350 2900 15600 2900
 Wire Wire Line
-	4600 5300 5350 5300
+	15600 3000 16350 3000
 Wire Wire Line
-	5350 5400 4600 5400
+	16350 3100 15600 3100
 Wire Wire Line
-	4600 5500 5350 5500
+	15600 3200 16350 3200
 Wire Wire Line
-	5350 5600 4600 5600
+	16350 3300 15600 3300
 Wire Wire Line
-	4600 5700 5350 5700
+	15600 3400 16350 3400
 Wire Wire Line
-	5350 5800 4600 5800
+	16350 3500 15600 3500
 Wire Wire Line
-	4600 5900 5350 5900
+	15600 3600 16350 3600
 Wire Wire Line
-	5350 6000 4600 6000
+	16350 3700 15600 3700
 $Comp
 L project_symbols:AGND #PWR03
 U 1 1 5D167DCF
@@ -3628,13 +3553,13 @@ Wire Notes Line
 Wire Notes Line
 	12950 7900 14600 7900
 Wire Notes Line
-	4500 4800 4500 6200
+	15500 2500 15500 3900
 Wire Notes Line
-	4500 6200 5950 6200
+	15500 3900 16950 3900
 Wire Notes Line
-	5950 6200 5950 4800
+	16950 3900 16950 2500
 Wire Notes Line
-	5950 4800 4500 4800
+	16950 2500 15500 2500
 Text Label 18850 7200 2    50   ~ 0
 GPIO26
 NoConn ~ 20100 3200
@@ -3744,12 +3669,8 @@ Wire Wire Line
 	16800 1650 16800 1750
 Wire Wire Line
 	16800 1150 16800 1200
-Connection ~ 16800 1550
 Wire Wire Line
 	16800 1200 16200 1200
-Connection ~ 16800 1200
-Wire Wire Line
-	16800 1200 16800 1550
 Connection ~ 15700 1200
 Wire Wire Line
 	15700 1200 15450 1200
@@ -3804,4 +3725,51 @@ F 3 "" H 8100 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8100 1700
+$Comp
+L project_symbols:ADS1299-4PAG U1
+U 1 1 5B462F68
+P 9550 3900
+F 0 "U1" H 9550 5667 50  0000 C CNN
+F 1 "ADS1299-4PAG" H 9550 5576 50  0000 C CNN
+F 2 "prj_lib_fp:xQFP_64_to_2.54mm_adapter" H 11050 5000 50  0001 L BNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1299-4.pdf" H 11000 5300 50  0001 L BNN
+F 4 "Low-Noise, 4-Channel, 24-Bit Analog-to-Digital Converter for Biopotential Measurements 64-TQFP -40 to 85" H 11000 5200 50  0001 L BNN "Description"
+F 5 "2707750" H 8947 5705 50  0001 L BNN "Farnell Part"
+F 6 "http://se.farnell.com/texas-instruments/ads1299-4pag/adc-quad-24-bits-16ksps-tqfp-64/dp/2707750" H 8847 5605 50  0001 L BNN "Farnell URL"
+	1    9550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L project_symbols:DGND #PWR0106
+U 1 1 5B8D02EB
+P 9300 4100
+F 0 "#PWR0106" H 9300 3850 50  0001 C CNN
+F 1 "DGND" H 9304 3945 50  0000 C CNN
+F 2 "" H 9300 4100 50  0001 C CNN
+F 3 "" H 9300 4100 50  0001 C CNN
+	1    9300 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L project_symbols:DGND #PWR0114
+U 1 1 5B8D16DF
+P 16800 1850
+F 0 "#PWR0114" H 16800 1600 50  0001 C CNN
+F 1 "DGND" H 16804 1695 50  0000 C CNN
+F 2 "" H 16800 1850 50  0001 C CNN
+F 3 "" H 16800 1850 50  0001 C CNN
+	1    16800 1850
+	1    0    0    -1  
+$EndComp
+Connection ~ 16800 1850
+Text Label 17400 1900 0    50   ~ 0
+GPIO27(GEN2)
+Text Label 17400 1800 0    50   ~ 0
+~DRDY
+Text Label 20100 2500 0    50   ~ 0
+START
+Text Label 17400 2700 0    50   ~ 0
+~RESET
+Text Label 20100 2800 0    50   ~ 0
+~PWDN
 $EndSCHEMATC
