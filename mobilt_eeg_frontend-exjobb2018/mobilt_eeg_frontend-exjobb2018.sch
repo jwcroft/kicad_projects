@@ -176,7 +176,7 @@ U 1 1 5834FB2E
 P -900 2250
 F 0 "MK1" H -800 2296 50  0000 L CNN
 F 1 "M2.5" H -800 2205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H -900 2250 60  0001 C CNN
+F 2 "prj_lib_fp:MountingHole_2.7mm_M2.5" H -900 2250 60  0001 C CNN
 F 3 "" H -900 2250 60  0001 C CNN
 	1    -900 2250
 	1    0    0    -1  
@@ -187,7 +187,7 @@ U 1 1 5834FBEF
 P -450 2250
 F 0 "MK3" H -350 2296 50  0000 L CNN
 F 1 "M2.5" H -350 2205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H -450 2250 60  0001 C CNN
+F 2 "prj_lib_fp:MountingHole_2.7mm_M2.5" H -450 2250 60  0001 C CNN
 F 3 "" H -450 2250 60  0001 C CNN
 	1    -450 2250
 	1    0    0    -1  
@@ -198,7 +198,7 @@ U 1 1 5834FC19
 P -900 2450
 F 0 "MK2" H -800 2496 50  0000 L CNN
 F 1 "M2.5" H -800 2405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H -900 2450 60  0001 C CNN
+F 2 "prj_lib_fp:MountingHole_2.7mm_M2.5" H -900 2450 60  0001 C CNN
 F 3 "" H -900 2450 60  0001 C CNN
 	1    -900 2450
 	1    0    0    -1  
@@ -209,7 +209,7 @@ U 1 1 5834FC4F
 P -450 2450
 F 0 "MK4" H -350 2496 50  0000 L CNN
 F 1 "M2.5" H -350 2405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_M2.5" H -450 2450 60  0001 C CNN
+F 2 "prj_lib_fp:MountingHole_2.7mm_M2.5" H -450 2450 60  0001 C CNN
 F 3 "" H -450 2450 60  0001 C CNN
 	1    -450 2450
 	1    0    0    -1  
@@ -386,40 +386,20 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J1
 U 1 1 5B456A77
-P 16450 1400
-F 0 "J1" H 16500 975 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 16500 1066 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 16450 1400 50  0001 C CNN
-F 3 "~" H 16450 1400 50  0001 C CNN
-	1    16450 1400
+P 16500 1750
+F 0 "J1" H 16550 1325 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 16550 1416 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 16500 1750 50  0001 C CNN
+F 3 "~" H 16500 1750 50  0001 C CNN
+	1    16500 1750
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	16750 1200 16750 1300
-Wire Wire Line
-	16750 1300 16750 1400
-Connection ~ 16750 1300
-Wire Wire Line
-	16750 1400 16750 1500
-Connection ~ 16750 1400
-Connection ~ 16750 1500
-$Comp
-L power:GNDD #PWR0107
-U 1 1 5B466EBF
-P 8100 1700
-F 0 "#PWR0107" H 8100 1450 50  0001 C CNN
-F 1 "GNDD" H 8104 1545 50  0000 C CNN
-F 2 "" H 8100 1700 50  0001 C CNN
-F 3 "" H 8100 1700 50  0001 C CNN
-	1    8100 1700
-	1    0    0    -1  
-$EndComp
+	16800 1550 16800 1650
 NoConn ~ 10450 4400
 Text Notes 15000 900  0    50   ~ 0
 ADC GPIO Header\n
 Text Label 11200 2800 2    50   ~ 0
-DVDD
-Text Label 6550 1000 0    50   ~ 0
 DVDD
 Wire Notes Line
 	6500 700  8300 700 
@@ -498,22 +478,14 @@ Text Label 8200 1000 2    50   ~ 0
 XTAL
 Wire Wire Line
 	8200 1000 8000 1000
-Text Label 15100 1200 0    50   ~ 0
+Text Label 15150 1550 0    50   ~ 0
 GPIO4
-Text Label 15100 1300 0    50   ~ 0
+Text Label 15150 1650 0    50   ~ 0
 GPIO3
-Text Label 15100 1400 0    50   ~ 0
+Text Label 15150 1750 0    50   ~ 0
 GPIO2
-Text Label 15100 1500 0    50   ~ 0
+Text Label 15150 1850 0    50   ~ 0
 GPIO1
-Wire Wire Line
-	15100 1500 15450 1500
-Wire Wire Line
-	15100 1200 16200 1200
-Wire Wire Line
-	15100 1400 15700 1400
-Wire Wire Line
-	15100 1300 15950 1300
 Wire Wire Line
 	10450 3000 11200 3000
 Wire Wire Line
@@ -1754,7 +1726,6 @@ Wire Notes Line
 	6500 700  6500 1950
 Wire Wire Line
 	8100 1400 8100 1700
-Connection ~ 8100 1700
 Wire Wire Line
 	6900 1700 6900 1400
 Connection ~ 6900 1400
@@ -2285,94 +2256,49 @@ Wire Wire Line
 Text Label 7050 5200 0    50   ~ 0
 CLKSEL
 $Comp
-L project_symbols:DGND #PWR027
-U 1 1 5B7CDC19
-P 16750 1850
-F 0 "#PWR027" H 16750 1600 50  0001 C CNN
-F 1 "DGND" H 16754 1695 50  0000 C CNN
-F 2 "" H 16750 1850 50  0001 C CNN
-F 3 "" H 16750 1850 50  0001 C CNN
-	1    16750 1850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R28
 U 1 1 5B7F50C7
-P 16200 1700
-F 0 "R28" H 16270 1746 50  0000 L CNN
-F 1 "10k" H 16270 1655 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 16130 1700 50  0001 C CNN
-F 3 "~" H 16200 1700 50  0001 C CNN
-	1    16200 1700
+P 16200 1350
+F 0 "R28" H 16270 1396 50  0000 L CNN
+F 1 "10k" H 16270 1305 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 16130 1350 50  0001 C CNN
+F 3 "~" H 16200 1350 50  0001 C CNN
+	1    16200 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	16200 1550 16200 1200
-Connection ~ 16200 1200
-Wire Wire Line
-	16200 1200 16250 1200
 $Comp
 L Device:R R25
 U 1 1 5B81CD42
-P 15950 1700
-F 0 "R25" H 16020 1746 50  0000 L CNN
-F 1 "10k" H 16020 1655 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 15880 1700 50  0001 C CNN
-F 3 "~" H 15950 1700 50  0001 C CNN
-	1    15950 1700
+P 15950 1350
+F 0 "R25" H 16020 1396 50  0000 L CNN
+F 1 "10k" H 16020 1305 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 15880 1350 50  0001 C CNN
+F 3 "~" H 15950 1350 50  0001 C CNN
+	1    15950 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R24
 U 1 1 5B81CE1A
-P 15700 1700
-F 0 "R24" H 15770 1746 50  0000 L CNN
-F 1 "10k" H 15770 1655 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 15630 1700 50  0001 C CNN
-F 3 "~" H 15700 1700 50  0001 C CNN
-	1    15700 1700
+P 15700 1350
+F 0 "R24" H 15770 1396 50  0000 L CNN
+F 1 "10k" H 15770 1305 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 15630 1350 50  0001 C CNN
+F 3 "~" H 15700 1350 50  0001 C CNN
+	1    15700 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R23
 U 1 1 5B81CEEA
-P 15450 1700
-F 0 "R23" H 15520 1746 50  0000 L CNN
-F 1 "10k" H 15520 1655 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 15380 1700 50  0001 C CNN
-F 3 "~" H 15450 1700 50  0001 C CNN
-	1    15450 1700
+P 15450 1350
+F 0 "R23" H 15520 1396 50  0000 L CNN
+F 1 "10k" H 15520 1305 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 15380 1350 50  0001 C CNN
+F 3 "~" H 15450 1350 50  0001 C CNN
+	1    15450 1350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15950 1550 15950 1300
-Connection ~ 15950 1300
-Wire Wire Line
-	15950 1300 16250 1300
-Wire Wire Line
-	15700 1550 15700 1400
-Connection ~ 15700 1400
-Wire Wire Line
-	15700 1400 16250 1400
-Connection ~ 15450 1500
-Wire Wire Line
-	15450 1850 15700 1850
-Connection ~ 15700 1850
-Wire Wire Line
-	15700 1850 15950 1850
-Connection ~ 15950 1850
-Wire Wire Line
-	15950 1850 16200 1850
-Wire Wire Line
-	16750 1500 16750 1850
-Wire Wire Line
-	16200 1850 16750 1850
-Connection ~ 16200 1850
-Connection ~ 16750 1850
-Wire Wire Line
-	15450 1500 16250 1500
-Wire Wire Line
-	15450 1550 15450 1500
 Wire Notes Line
 	17100 2050 15000 2050
 Wire Notes Line
@@ -2382,7 +2308,7 @@ Wire Notes Line
 Wire Notes Line
 	17100 900  17100 2050
 Text Notes 15300 2000 0    50   ~ 0
->=10k pulldown
+>=10k pullUP
 Text Notes 3850 2250 0    50   ~ 0
 Feedback Elements\n(ch.9.3.2.4.1) \nTyp. values for example only
 $Comp
@@ -3064,8 +2990,6 @@ Wire Notes Line
 	14600 4650 12950 4650
 Wire Notes Line
 	12950 4650 12950 3150
-Text Notes 15500 2200 0    50   ~ 0
-PULLUP??
 Text Label 14250 5100 0    50   ~ 0
 AVSS@1
 Text Notes 10850 2500 0    50   ~ 0
@@ -3793,4 +3717,91 @@ F 3 "" H 10550 5300 50  0001 C CNN
 	1    10550 5300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	15150 1850 16200 1850
+Wire Wire Line
+	15150 1750 15950 1750
+Wire Wire Line
+	15150 1650 15700 1650
+Wire Wire Line
+	15150 1550 15450 1550
+$Comp
+L project_symbols:DVDD #PWR0112
+U 1 1 5B61E4B0
+P 16800 1150
+F 0 "#PWR0112" H 16800 1000 50  0001 C CNN
+F 1 "DVDD" H 16817 1323 50  0000 C CNN
+F 2 "" H 16800 1150 50  0001 C CNN
+F 3 "" H 16800 1150 50  0001 C CNN
+	1    16800 1150
+	1    0    0    -1  
+$EndComp
+Connection ~ 16800 1750
+Connection ~ 16800 1650
+Wire Wire Line
+	16800 1750 16800 1850
+Wire Wire Line
+	16800 1650 16800 1750
+Wire Wire Line
+	16800 1150 16800 1200
+Connection ~ 16800 1550
+Wire Wire Line
+	16800 1200 16200 1200
+Connection ~ 16800 1200
+Wire Wire Line
+	16800 1200 16800 1550
+Connection ~ 15700 1200
+Wire Wire Line
+	15700 1200 15450 1200
+Connection ~ 15950 1200
+Wire Wire Line
+	15950 1200 15700 1200
+Connection ~ 16200 1200
+Wire Wire Line
+	16200 1200 15950 1200
+Wire Wire Line
+	15450 1500 15450 1550
+Connection ~ 15450 1550
+Wire Wire Line
+	15450 1550 16300 1550
+Wire Wire Line
+	15700 1500 15700 1650
+Connection ~ 15700 1650
+Wire Wire Line
+	15700 1650 16300 1650
+Wire Wire Line
+	15950 1500 15950 1750
+Connection ~ 15950 1750
+Wire Wire Line
+	15950 1750 16300 1750
+Wire Wire Line
+	16200 1500 16200 1850
+Connection ~ 16200 1850
+Wire Wire Line
+	16200 1850 16300 1850
+Text Notes 15350 2150 0    50   ~ 0
+Double check!!
+$Comp
+L project_symbols:DVDD #PWR0107
+U 1 1 5B8CBFDD
+P 6550 1000
+F 0 "#PWR0107" H 6550 850 50  0001 C CNN
+F 1 "DVDD" H 6567 1173 50  0000 C CNN
+F 2 "" H 6550 1000 50  0001 C CNN
+F 3 "" H 6550 1000 50  0001 C CNN
+	1    6550 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L project_symbols:DGND #PWR0113
+U 1 1 5B8CC10B
+P 8100 1700
+F 0 "#PWR0113" H 8100 1450 50  0001 C CNN
+F 1 "DGND" H 8104 1545 50  0000 C CNN
+F 2 "" H 8100 1700 50  0001 C CNN
+F 3 "" H 8100 1700 50  0001 C CNN
+	1    8100 1700
+	1    0    0    -1  
+$EndComp
+Connection ~ 8100 1700
 $EndSCHEMATC
