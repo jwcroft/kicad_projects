@@ -3772,4 +3772,10 @@ Text Label 17400 2700 0    50   ~ 0
 ~RESET
 Text Label 20100 2800 0    50   ~ 0
 ~PWDN
+Text Notes 8650 1850 0    50   ~ 0
+ADS1299 with xQFP64 breakout adapter footprint.
+Text Notes 8650 1950 0    50   ~ 0
+Height under adapter board w/ pin headers: 11mm
+Text Notes 8650 2050 0    50   ~ 0
+Area under adapter board: 24*24mm
 $EndSCHEMATC

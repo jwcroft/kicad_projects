@@ -16,9 +16,9 @@
 
   (layers
     (0 Front signal)
-    (1 Ground power hide)
-    (2 Power power hide)
-    (31 Back signal hide)
+    (1 Ground power)
+    (2 Power power)
+    (31 Back signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
