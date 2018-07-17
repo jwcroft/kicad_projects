@@ -1702,7 +1702,7 @@ U 1 1 5B6A1226
 P 11900 1350
 F 0 "J8" H 11900 1750 50  0000 L CNN
 F 1 "Conn_01x08" H 11700 850 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 11900 1350 50  0001 C CNN
+F 2 "prj_lib_fp:Pin_Header_Straight_1x08_Pitch2.54mm" H 11900 1350 50  0001 C CNN
 F 3 "~" H 11900 1350 50  0001 C CNN
 	1    11900 1350
 	1    0    0    -1  
@@ -2143,17 +2143,6 @@ Wire Wire Line
 	2100 9700 2100 7800
 Wire Wire Line
 	2100 9700 2800 9700
-$Comp
-L Connector_Generic:Conn_01x01 J6
-U 1 1 5BCD7365
-P 11200 6650
-F 0 "J6" H 11280 6692 50  0000 L CNN
-F 1 "Conn_01x01" H 11280 6601 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 11200 6650 50  0001 C CNN
-F 3 "~" H 11200 6650 50  0001 C CNN
-	1    11200 6650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10150 6650 11000 6650
 Text Notes 11000 6500 0    50   ~ 0
@@ -2267,7 +2256,7 @@ U 1 1 5B6AD18D
 P 3000 2500
 F 0 "J3" H 3050 2817 50  0000 C CNN
 F 1 "Conn_02x04_Odd_Even" H 3050 2726 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 3000 2500 50  0001 C CNN
+F 2 "prj_lib_fp:Pin_Header_Straight_2x04_Pitch2.54mm" H 3000 2500 50  0001 C CNN
 F 3 "~" H 3000 2500 50  0001 C CNN
 	1    3000 2500
 	1    0    0    -1  
@@ -3778,4 +3767,6 @@ Text Notes 8650 1950 0    50   ~ 0
 Height under adapter board w/ pin headers: 11mm
 Text Notes 8650 2050 0    50   ~ 0
 Area under adapter board: 24*24mm
+Text Notes 11000 6600 0    50   ~ 0
+Implemented with a via.
 $EndSCHEMATC
