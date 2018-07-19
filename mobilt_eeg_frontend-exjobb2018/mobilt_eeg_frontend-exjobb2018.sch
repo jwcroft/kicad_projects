@@ -3958,4 +3958,6 @@ Wire Wire Line
 Connection ~ 3600 9700
 Wire Wire Line
 	3600 9700 3900 9700
+Text Notes 4150 8400 0    50   ~ 0
+Differential capacitors recommended in datasheet.\nValues TBD.
 $EndSCHEMATC

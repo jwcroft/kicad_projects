@@ -1851,14 +1851,14 @@ F 3 "~" H 2900 9100 50  0001 C CNN
 $EndComp
 Connection ~ 3000 8700
 Connection ~ 3000 9100
-Text Label 3450 9700 2    50   ~ 0
+Text Label 3900 9700 2    50   ~ 0
 SRB1
-Text Label 3450 9300 2    50   ~ 0
+Text Label 3900 9300 2    50   ~ 0
 SRB2
 Wire Wire Line
-	3000 8700 3450 8700
+	3000 8700 3600 8700
 Wire Wire Line
-	3000 9100 3450 9100
+	3000 9100 3600 9100
 $Comp
 L Device:C_Small C27
 U 1 1 5B8E1468
@@ -1918,9 +1918,9 @@ $EndComp
 Connection ~ 3000 8100
 Connection ~ 3000 8500
 Wire Wire Line
-	3000 8100 3450 8100
+	3000 8100 3600 8100
 Wire Wire Line
-	3000 8500 3450 8500
+	3000 8500 3600 8500
 $Comp
 L Device:C_Small C25
 U 1 1 5B8FF237
@@ -1980,9 +1980,9 @@ $EndComp
 Connection ~ 3000 7500
 Connection ~ 3000 7900
 Wire Wire Line
-	3000 7500 3450 7500
+	3000 7500 3600 7500
 Wire Wire Line
-	3000 7900 3450 7900
+	3000 7900 3600 7900
 $Comp
 L Device:C_Small C23
 U 1 1 5B8FF25C
@@ -2044,9 +2044,9 @@ Connection ~ 3000 7300
 Wire Wire Line
 	2800 7300 2500 7300
 Wire Wire Line
-	3000 6900 3450 6900
+	3000 6900 3600 6900
 Wire Wire Line
-	3000 7300 3450 7300
+	3000 7300 3600 7300
 Wire Wire Line
 	2500 7000 2500 7300
 Wire Wire Line
@@ -2132,9 +2132,9 @@ $EndComp
 Connection ~ 3000 9300
 Connection ~ 3000 9700
 Wire Wire Line
-	3000 9300 3450 9300
+	3000 9300 3600 9300
 Wire Wire Line
-	3000 9700 3450 9700
+	3000 9700 3600 9700
 Wire Wire Line
 	2150 9300 2150 7700
 Wire Wire Line
@@ -2147,37 +2147,37 @@ Wire Wire Line
 	10150 6650 11000 6650
 Text Notes 11000 6500 0    50   ~ 0
 Test Point -5V
-Text Label 3450 8700 2    50   ~ 0
+Text Label 3900 8700 2    50   ~ 0
 IN1N
-Text Label 3450 8100 2    50   ~ 0
+Text Label 3900 8100 2    50   ~ 0
 IN2N
-Text Label 3450 7500 2    50   ~ 0
+Text Label 3900 7500 2    50   ~ 0
 IN3N
-Text Label 3450 6900 2    50   ~ 0
+Text Label 3900 6900 2    50   ~ 0
 IN4N
-Text Label 3450 5850 2    50   ~ 0
+Text Label 3900 5850 2    50   ~ 0
 IN5N
-Text Label 3450 5250 2    50   ~ 0
+Text Label 3900 5250 2    50   ~ 0
 IN6N
-Text Label 3450 4650 2    50   ~ 0
+Text Label 3900 4650 2    50   ~ 0
 IN7N
-Text Label 3450 4050 2    50   ~ 0
+Text Label 3900 4050 2    50   ~ 0
 IN8N
-Text Label 3450 9100 2    50   ~ 0
+Text Label 3900 9100 2    50   ~ 0
 IN1P
-Text Label 3450 8500 2    50   ~ 0
+Text Label 3900 8500 2    50   ~ 0
 IN2P
-Text Label 3450 7900 2    50   ~ 0
+Text Label 3900 7900 2    50   ~ 0
 IN3P
-Text Label 3450 7300 2    50   ~ 0
+Text Label 3900 7300 2    50   ~ 0
 IN4P
-Text Label 3450 6250 2    50   ~ 0
+Text Label 3900 6250 2    50   ~ 0
 IN5P
-Text Label 3450 5650 2    50   ~ 0
+Text Label 3900 5650 2    50   ~ 0
 IN6P
-Text Label 3450 5050 2    50   ~ 0
+Text Label 3900 5050 2    50   ~ 0
 IN7P
-Text Label 3450 4450 2    50   ~ 0
+Text Label 3900 4450 2    50   ~ 0
 IN8P
 Text Notes 13500 2600 0    50   ~ 0
 Test Pad INTERNAL_VREF 4.5V
@@ -2264,19 +2264,19 @@ $EndComp
 Text Notes 2600 2050 0    50   ~ 0
 Bias/reference Signals
 Wire Notes Line
-	3550 9800 3550 6550
+	4000 9800 4000 6550
 Wire Notes Line
-	3550 6550 1700 6550
+	4000 6550 1700 6550
 Wire Notes Line
-	1700 9800 3550 9800
+	1700 9800 4000 9800
 Text Notes 1700 3100 0    50   ~ 0
 Electrodes [HIGH]/BIASOUT Header + filtering
 $Comp
 L Device:C_Small C19
 U 1 1 5BC72DF7
 P 3000 5550
-F 0 "C19" H 3100 5600 50  0000 L CNN
-F 1 "4.7nF" H 3250 5600 50  0000 L CNN
+F 0 "C19" H 3100 5550 50  0000 L CNN
+F 1 "4.7nF" H 3300 5550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 5550 50  0001 C CNN
 F 3 "~" H 3000 5550 50  0001 C CNN
 	1    3000 5550
@@ -2328,15 +2328,15 @@ F 3 "~" H 2900 5650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3000 5250 3450 5250
+	3000 5250 3600 5250
 Wire Wire Line
-	3000 5650 3450 5650
+	3000 5650 3600 5650
 $Comp
 L Device:C_Small C17
 U 1 1 5BC72E1C
 P 3000 4950
-F 0 "C17" H 3100 5000 50  0000 L CNN
-F 1 "4.7nF" H 3250 5000 50  0000 L CNN
+F 0 "C17" H 3100 4950 50  0000 L CNN
+F 1 "4.7nF" H 3300 4950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 4950 50  0001 C CNN
 F 3 "~" H 3000 4950 50  0001 C CNN
 	1    3000 4950
@@ -2388,15 +2388,15 @@ F 3 "~" H 2900 5050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3000 4650 3450 4650
+	3000 4650 3600 4650
 Wire Wire Line
-	3000 5050 3450 5050
+	3000 5050 3600 5050
 $Comp
 L Device:C_Small C15
 U 1 1 5BC72E3F
 P 3000 4350
-F 0 "C15" H 3100 4400 50  0000 L CNN
-F 1 "4.7nF" H 3250 4400 50  0000 L CNN
+F 0 "C15" H 3100 4350 50  0000 L CNN
+F 1 "4.7nF" H 3300 4350 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 4350 50  0001 C CNN
 F 3 "~" H 3000 4350 50  0001 C CNN
 	1    3000 4350
@@ -2448,9 +2448,9 @@ F 3 "~" H 2900 4450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3000 4050 3450 4050
+	3000 4050 3600 4050
 Wire Wire Line
-	3000 4450 3450 4450
+	3000 4450 3600 4450
 $Comp
 L Device:C_Small C13
 U 1 1 5BC72E62
@@ -2514,8 +2514,8 @@ $Comp
 L Device:C_Small C21
 U 1 1 5BC72EA1
 P 3000 6150
-F 0 "C21" H 3100 6200 50  0000 L CNN
-F 1 "4.7nF" H 3250 6200 50  0000 L CNN
+F 0 "C21" H 3100 6150 50  0000 L CNN
+F 1 "4.7nF" H 3300 6150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 6150 50  0001 C CNN
 F 3 "~" H 3000 6150 50  0001 C CNN
 	1    3000 6150
@@ -2567,9 +2567,9 @@ F 3 "~" H 2900 6250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3000 5850 3450 5850
+	3000 5850 3600 5850
 Wire Wire Line
-	3000 6250 3450 6250
+	3000 6250 3600 6250
 Wire Wire Line
 	2150 5850 2150 4250
 Wire Wire Line
@@ -2579,12 +2579,12 @@ Wire Wire Line
 Wire Wire Line
 	2100 6250 2800 6250
 Wire Notes Line
-	3550 6350 3550 3100
+	4000 6350 4000 3100
 Wire Notes Line
-	3550 3100 1700 3100
+	4000 3100 1700 3100
 Wire Notes Line
-	1700 6350 3550 6350
-Text Label 3450 3650 2    50   ~ 0
+	1700 6350 4000 6350
+Text Label 3900 3650 2    50   ~ 0
 BIASOUT
 Text Label 6800 3800 0    50   ~ 0
 IN1N
@@ -2657,14 +2657,14 @@ Wire Wire Line
 Text Notes 17350 1200 0    50   ~ 0
 In case we need to bypass extern reg.
 Wire Notes Line
-	3700 3950 2450 3950
+	4150 3950 2450 3950
 Wire Notes Line
 	2450 3950 2450 6400
 Wire Notes Line
-	2450 6400 3700 6400
+	2450 6400 4150 6400
 Wire Notes Line
-	3700 6400 3700 3950
-Text Notes 3700 4750 0    50   ~ 0
+	4150 6400 4150 3950
+Text Notes 4550 4700 0    50   ~ 0
 Do Not Populate \nfor ADS1299-4!
 $Comp
 L Connector_Generic:Conn_02x20_Odd_Even J2
@@ -2678,7 +2678,7 @@ F 3 "~" H 1000 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3450 3650 3000 3650
+	3900 3650 3000 3650
 Connection ~ 3000 3650
 Text Label 2450 2700 0    50   ~ 0
 BIASOUT
@@ -3769,4 +3769,193 @@ Text Notes 8650 2050 0    50   ~ 0
 Area under adapter board: 24*24mm
 Text Notes 11000 6600 0    50   ~ 0
 Implemented with a via.
+$Comp
+L Device:C C62
+U 1 1 5B658336
+P 3600 4250
+F 0 "C62" H 3715 4296 50  0000 L CNN
+F 1 "DNP" H 3715 4205 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 4100 50  0001 C CNN
+F 3 "~" H 3600 4250 50  0001 C CNN
+	1    3600 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4100 3600 4050
+Connection ~ 3600 4050
+Wire Wire Line
+	3600 4050 3900 4050
+Wire Wire Line
+	3600 4400 3600 4450
+Connection ~ 3600 4450
+Wire Wire Line
+	3600 4450 3900 4450
+$Comp
+L Device:C C63
+U 1 1 5B7B4B95
+P 3600 4850
+F 0 "C63" H 3715 4896 50  0000 L CNN
+F 1 "DNP" H 3715 4805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 4700 50  0001 C CNN
+F 3 "~" H 3600 4850 50  0001 C CNN
+	1    3600 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4700 3600 4650
+Wire Wire Line
+	3600 5000 3600 5050
+Connection ~ 3600 4650
+Wire Wire Line
+	3600 4650 3900 4650
+Connection ~ 3600 5050
+Wire Wire Line
+	3600 5050 3900 5050
+$Comp
+L Device:C C64
+U 1 1 5B867A9A
+P 3600 5450
+F 0 "C64" H 3715 5496 50  0000 L CNN
+F 1 "DNP" H 3715 5405 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 5300 50  0001 C CNN
+F 3 "~" H 3600 5450 50  0001 C CNN
+	1    3600 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5300 3600 5250
+Wire Wire Line
+	3600 5600 3600 5650
+Connection ~ 3600 5250
+Wire Wire Line
+	3600 5250 3900 5250
+Connection ~ 3600 5650
+Wire Wire Line
+	3600 5650 3900 5650
+$Comp
+L Device:C C65
+U 1 1 5B8C2215
+P 3600 6050
+F 0 "C65" H 3715 6096 50  0000 L CNN
+F 1 "DNP" H 3715 6005 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 5900 50  0001 C CNN
+F 3 "~" H 3600 6050 50  0001 C CNN
+	1    3600 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 5900 3600 5850
+Wire Wire Line
+	3600 6200 3600 6250
+Connection ~ 3600 5850
+Wire Wire Line
+	3600 5850 3900 5850
+Connection ~ 3600 6250
+Wire Wire Line
+	3600 6250 3900 6250
+$Comp
+L Device:C C66
+U 1 1 5BA33AEE
+P 3600 7100
+F 0 "C66" H 3715 7146 50  0000 L CNN
+F 1 "DNP" H 3715 7055 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 6950 50  0001 C CNN
+F 3 "~" H 3600 7100 50  0001 C CNN
+	1    3600 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 6950 3600 6900
+Wire Wire Line
+	3600 7250 3600 7300
+Connection ~ 3600 6900
+Wire Wire Line
+	3600 6900 3900 6900
+Connection ~ 3600 7300
+Wire Wire Line
+	3600 7300 3900 7300
+$Comp
+L Device:C C67
+U 1 1 5BA91126
+P 3600 7700
+F 0 "C67" H 3715 7746 50  0000 L CNN
+F 1 "DNP" H 3715 7655 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 7550 50  0001 C CNN
+F 3 "~" H 3600 7700 50  0001 C CNN
+	1    3600 7700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 7550 3600 7500
+Wire Wire Line
+	3600 7850 3600 7900
+Connection ~ 3600 7500
+Wire Wire Line
+	3600 7500 3900 7500
+Connection ~ 3600 7900
+Wire Wire Line
+	3600 7900 3900 7900
+$Comp
+L Device:C C68
+U 1 1 5BAEF424
+P 3600 8300
+F 0 "C68" H 3715 8346 50  0000 L CNN
+F 1 "DNP" H 3715 8255 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 8150 50  0001 C CNN
+F 3 "~" H 3600 8300 50  0001 C CNN
+	1    3600 8300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 8150 3600 8100
+Wire Wire Line
+	3600 8450 3600 8500
+Connection ~ 3600 8100
+Wire Wire Line
+	3600 8100 3900 8100
+Connection ~ 3600 8500
+Wire Wire Line
+	3600 8500 3900 8500
+$Comp
+L Device:C C69
+U 1 1 5BB4EB16
+P 3600 8900
+F 0 "C69" H 3715 8946 50  0000 L CNN
+F 1 "DNP" H 3715 8855 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 8750 50  0001 C CNN
+F 3 "~" H 3600 8900 50  0001 C CNN
+	1    3600 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 8750 3600 8700
+Wire Wire Line
+	3600 9050 3600 9100
+Connection ~ 3600 8700
+Wire Wire Line
+	3600 8700 3900 8700
+Connection ~ 3600 9100
+Wire Wire Line
+	3600 9100 3900 9100
+$Comp
+L Device:C C70
+U 1 1 5BBAF61C
+P 3600 9500
+F 0 "C70" H 3715 9546 50  0000 L CNN
+F 1 "DNP" H 3715 9455 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 9350 50  0001 C CNN
+F 3 "~" H 3600 9500 50  0001 C CNN
+	1    3600 9500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 9350 3600 9300
+Wire Wire Line
+	3600 9650 3600 9700
+Connection ~ 3600 9300
+Wire Wire Line
+	3600 9300 3900 9300
+Connection ~ 3600 9700
+Wire Wire Line
+	3600 9700 3900 9700
 $EndSCHEMATC
