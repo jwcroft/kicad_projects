@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name TQFP44)(type KiCad)(uri "$(KIPRJMOD)/TQFP44.pretty")(options "")(descr ""))
+)
