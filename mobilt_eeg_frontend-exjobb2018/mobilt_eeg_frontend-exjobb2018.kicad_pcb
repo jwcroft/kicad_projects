@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 150)
+    (drawings 151)
     (tracks 933)
     (zones 0)
     (modules 125)
@@ -68,7 +68,6 @@
     (pad_drill 2.75)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 200 150)
-    (grid_origin 198.54 178.67)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x01030_ffffffff)
@@ -5481,6 +5480,9 @@
       (net 1 +5V))
   )
 
+  (gr_text "2.54mm grid origin - Pi header pin 1\n1mm grid origin" (at 212.344 83.058) (layer Eco2.User)
+    (effects (font (size 1 1) (thickness 0.25)))
+  )
   (gr_line (start 194.476 168.51) (end 193.968 168.51) (layer F.SilkS) (width 0.15))
   (gr_line (start 193.206 171.05) (end 194.476 171.05) (layer F.SilkS) (width 0.15))
   (gr_line (start 194.476 173.59) (end 194.476 168.51) (layer F.SilkS) (width 0.15))
