@@ -68,7 +68,6 @@
     (pad_drill 2.75)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 200 150)
-    (grid_origin 208.37 96.23)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x01030_ffffffff)
