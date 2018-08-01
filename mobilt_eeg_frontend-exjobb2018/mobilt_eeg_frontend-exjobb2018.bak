@@ -299,7 +299,7 @@ U 1 1 5B46310B
 P 7450 1400
 F 0 "C1" V 7550 1400 50  0000 C CNN
 F 1 "100nF" V 7350 1400 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7450 1400 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 7450 1400 50  0001 C CNN
 F 3 "~" H 7450 1400 50  0001 C CNN
 	1    7450 1400
 	0    -1   -1   0   
@@ -383,7 +383,7 @@ U 1 1 5B492FAD
 P 5800 1050
 F 0 "R2" H 5870 1096 50  0000 L CNN
 F 1 "10k" H 5870 1005 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5730 1050 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" V 5730 1050 50  0001 C CNN
 F 3 "~" H 5800 1050 50  0001 C CNN
 	1    5800 1050
 	1    0    0    -1  
@@ -394,7 +394,7 @@ U 1 1 5B493009
 P 5500 1050
 F 0 "R1" H 5570 1096 50  0000 L CNN
 F 1 "10k" H 5570 1005 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 5430 1050 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" V 5430 1050 50  0001 C CNN
 F 3 "~" H 5500 1050 50  0001 C CNN
 	1    5500 1050
 	1    0    0    -1  
@@ -550,7 +550,7 @@ U 1 1 5B672EA7
 P 13450 2800
 F 0 "C46" H 13568 2846 50  0000 L CNN
 F 1 "10uF" H 13568 2755 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Hand" H 13488 2650 50  0001 C CNN
+F 2 "prj_lib_fp:CP_Tantalum_Case-D_EIA-7343-31_Hand" H 13488 2650 50  0001 C CNN
 F 3 "~" H 13450 2800 50  0001 C CNN
 	1    13450 2800
 	1    0    0    -1  
@@ -565,7 +565,7 @@ U 1 1 5B6810EB
 P 13850 2800
 F 0 "C61" H 13965 2846 50  0000 L CNN
 F 1 "100nF" H 13965 2755 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 13888 2650 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 13888 2650 50  0001 C CNN
 F 3 "~" H 13850 2800 50  0001 C CNN
 	1    13850 2800
 	1    0    0    -1  
@@ -621,7 +621,7 @@ U 1 1 5B714237
 P 13600 3350
 F 0 "C47" V 13650 3500 50  0000 C CNN
 F 1 "100uF" V 13650 3100 50  0000 C CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-D_EIA-7343-31_Hand" H 13638 3200 50  0001 C CNN
+F 2 "prj_lib_fp:CP_Tantalum_Case-D_EIA-7343-31_Hand" H 13638 3200 50  0001 C CNN
 F 3 "~" H 13600 3350 50  0001 C CNN
 	1    13600 3350
 	0    -1   -1   0   
@@ -638,7 +638,7 @@ U 1 1 5B733F6E
 P 13600 3600
 F 0 "C48" V 13550 3450 50  0000 C CNN
 F 1 "1uF" V 13550 3750 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 13638 3450 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 13638 3450 50  0001 C CNN
 F 3 "~" H 13600 3600 50  0001 C CNN
 	1    13600 3600
 	0    1    1    0   
@@ -667,7 +667,7 @@ U 1 1 5B76DCFC
 P 13600 3850
 F 0 "C49" V 13550 3700 50  0000 C CNN
 F 1 "1uF" V 13550 4000 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 13638 3700 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 13638 3700 50  0001 C CNN
 F 3 "~" H 13600 3850 50  0001 C CNN
 	1    13600 3850
 	0    1    1    0   
@@ -678,7 +678,7 @@ U 1 1 5B76DF12
 P 13600 4100
 F 0 "C50" V 13550 3950 50  0000 C CNN
 F 1 "100nF" V 13550 4300 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 13638 3950 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 13638 3950 50  0001 C CNN
 F 3 "~" H 13600 4100 50  0001 C CNN
 	1    13600 4100
 	0    1    1    0   
@@ -695,7 +695,7 @@ U 1 1 5B790F59
 P 13600 4350
 F 0 "C51" V 13550 4200 50  0000 C CNN
 F 1 "1uF" V 13550 4500 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 13638 4200 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 13638 4200 50  0001 C CNN
 F 3 "~" H 13600 4350 50  0001 C CNN
 	1    13600 4350
 	0    1    1    0   
@@ -740,7 +740,7 @@ U 1 1 5B873DA5
 P 13650 5350
 F 0 "C53" V 13600 5200 50  0000 C CNN
 F 1 "1uF" V 13600 5500 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 13688 5200 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 13688 5200 50  0001 C CNN
 F 3 "~" H 13650 5350 50  0001 C CNN
 	1    13650 5350
 	0    1    1    0   
@@ -841,7 +841,7 @@ U 1 1 5B61EE29
 P 7450 11100
 F 0 "C3" H 7565 11146 50  0000 L CNN
 F 1 "10uF" H 7565 11055 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7488 10950 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 7488 10950 50  0001 C CNN
 F 3 "~" H 7450 11100 50  0001 C CNN
 	1    7450 11100
 	1    0    0    -1  
@@ -852,7 +852,7 @@ U 1 1 5B61EEDF
 P 7850 11100
 F 0 "C7" H 7965 11146 50  0000 L CNN
 F 1 "1uF" H 7965 11055 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7888 10950 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 7888 10950 50  0001 C CNN
 F 3 "~" H 7850 11100 50  0001 C CNN
 	1    7850 11100
 	1    0    0    -1  
@@ -863,7 +863,7 @@ U 1 1 5B61F5BD
 P 8200 11100
 F 0 "C11" H 8315 11146 50  0000 L CNN
 F 1 "100nF" H 8315 11055 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8238 10950 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 8238 10950 50  0001 C CNN
 F 3 "~" H 8200 11100 50  0001 C CNN
 	1    8200 11100
 	1    0    0    -1  
@@ -890,7 +890,7 @@ U 1 1 5B686AFB
 P 9800 11350
 F 0 "C35" H 9915 11396 50  0000 L CNN
 F 1 "10nF" H 9915 11305 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9838 11200 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 9838 11200 50  0001 C CNN
 F 3 "~" H 9800 11350 50  0001 C CNN
 	1    9800 11350
 	1    0    0    -1  
@@ -915,7 +915,7 @@ U 1 1 5B6B456F
 P 10200 11100
 F 0 "C39" H 10315 11146 50  0000 L CNN
 F 1 "10uF" H 10315 11055 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10238 10950 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 10238 10950 50  0001 C CNN
 F 3 "~" H 10200 11100 50  0001 C CNN
 	1    10200 11100
 	1    0    0    -1  
@@ -926,7 +926,7 @@ U 1 1 5B6B4575
 P 10600 11100
 F 0 "C42" H 10715 11146 50  0000 L CNN
 F 1 "2.2uF" H 10715 11055 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10638 10950 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 10638 10950 50  0001 C CNN
 F 3 "~" H 10600 11100 50  0001 C CNN
 	1    10600 11100
 	1    0    0    -1  
@@ -989,7 +989,7 @@ U 1 1 5B7995B2
 P 7400 9500
 F 0 "C2" H 7515 9546 50  0000 L CNN
 F 1 "10uF" H 7515 9455 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7438 9350 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 7438 9350 50  0001 C CNN
 F 3 "~" H 7400 9500 50  0001 C CNN
 	1    7400 9500
 	1    0    0    -1  
@@ -1000,7 +1000,7 @@ U 1 1 5B7995B8
 P 7800 9500
 F 0 "C6" H 7915 9546 50  0000 L CNN
 F 1 "1uF" H 7915 9455 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7838 9350 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 7838 9350 50  0001 C CNN
 F 3 "~" H 7800 9500 50  0001 C CNN
 	1    7800 9500
 	1    0    0    -1  
@@ -1011,7 +1011,7 @@ U 1 1 5B7995BE
 P 8150 9500
 F 0 "C10" H 8265 9546 50  0000 L CNN
 F 1 "100nF" H 8265 9455 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8188 9350 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 8188 9350 50  0001 C CNN
 F 3 "~" H 8150 9500 50  0001 C CNN
 	1    8150 9500
 	1    0    0    -1  
@@ -1046,7 +1046,7 @@ U 1 1 5B7CF766
 P 10150 9500
 F 0 "C38" H 10265 9546 50  0000 L CNN
 F 1 "10uF" H 10265 9455 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10188 9350 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 10188 9350 50  0001 C CNN
 F 3 "~" H 10150 9500 50  0001 C CNN
 	1    10150 9500
 	1    0    0    -1  
@@ -1057,7 +1057,7 @@ U 1 1 5B7CF76C
 P 10550 9500
 F 0 "C41" H 10665 9546 50  0000 L CNN
 F 1 "2.2uF" H 10665 9455 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10588 9350 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 10588 9350 50  0001 C CNN
 F 3 "~" H 10550 9500 50  0001 C CNN
 	1    10550 9500
 	1    0    0    -1  
@@ -1076,7 +1076,7 @@ U 1 1 5B7F6B35
 P 10950 9500
 F 0 "C44" H 11065 9546 50  0000 L CNN
 F 1 "100nF" H 11065 9455 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10988 9350 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 10988 9350 50  0001 C CNN
 F 3 "~" H 10950 9500 50  0001 C CNN
 	1    10950 9500
 	1    0    0    -1  
@@ -1095,7 +1095,7 @@ U 1 1 5B81DC6E
 P 9750 9750
 F 0 "C34" H 9865 9796 50  0000 L CNN
 F 1 "10nF" H 9865 9705 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9788 9600 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 9788 9600 50  0001 C CNN
 F 3 "~" H 9750 9750 50  0001 C CNN
 	1    9750 9750
 	1    0    0    -1  
@@ -1171,7 +1171,7 @@ U 1 1 5B8E86B9
 P 7550 6800
 F 0 "C4" H 7665 6846 50  0000 L CNN
 F 1 "10uF" H 7665 6755 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7588 6650 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 7588 6650 50  0001 C CNN
 F 3 "~" H 7550 6800 50  0001 C CNN
 	1    7550 6800
 	1    0    0    -1  
@@ -1182,7 +1182,7 @@ U 1 1 5B8E86BF
 P 7950 6800
 F 0 "C8" H 8065 6846 50  0000 L CNN
 F 1 "1uF" H 8065 6755 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7988 6650 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 7988 6650 50  0001 C CNN
 F 3 "~" H 7950 6800 50  0001 C CNN
 	1    7950 6800
 	1    0    0    -1  
@@ -1203,7 +1203,7 @@ U 1 1 5B925544
 P 8350 6950
 F 0 "C12" H 8442 6996 50  0000 L CNN
 F 1 "1uF" H 8442 6905 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8350 6950 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 8350 6950 50  0001 C CNN
 F 3 "~" H 8350 6950 50  0001 C CNN
 	1    8350 6950
 	1    0    0    -1  
@@ -1240,7 +1240,7 @@ U 1 1 5B97D4DD
 P 9750 6800
 F 0 "C32" H 9865 6846 50  0000 L CNN
 F 1 "10uF" H 9865 6755 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9788 6650 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 9788 6650 50  0001 C CNN
 F 3 "~" H 9750 6800 50  0001 C CNN
 	1    9750 6800
 	1    0    0    -1  
@@ -1251,7 +1251,7 @@ U 1 1 5B97D4E3
 P 10150 6800
 F 0 "C36" H 10265 6846 50  0000 L CNN
 F 1 "1uF" H 10265 6755 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10188 6650 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 10188 6650 50  0001 C CNN
 F 3 "~" H 10150 6800 50  0001 C CNN
 	1    10150 6800
 	1    0    0    -1  
@@ -1283,7 +1283,7 @@ U 1 1 5B9D5E12
 P 7750 8250
 F 0 "C5" H 7865 8296 50  0000 L CNN
 F 1 "10uF" H 7865 8205 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7788 8100 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 7788 8100 50  0001 C CNN
 F 3 "~" H 7750 8250 50  0001 C CNN
 	1    7750 8250
 	1    0    0    -1  
@@ -1294,7 +1294,7 @@ U 1 1 5B9D5E18
 P 8150 8250
 F 0 "C9" H 8265 8296 50  0000 L CNN
 F 1 "2.2uF" H 8265 8205 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 8188 8100 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 8188 8100 50  0001 C CNN
 F 3 "~" H 8150 8250 50  0001 C CNN
 	1    8150 8250
 	1    0    0    -1  
@@ -1324,7 +1324,7 @@ U 1 1 5BA5D386
 P 10150 8250
 F 0 "C37" H 10265 8296 50  0000 L CNN
 F 1 "10uF" H 10265 8205 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10188 8100 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 10188 8100 50  0001 C CNN
 F 3 "~" H 10150 8250 50  0001 C CNN
 	1    10150 8250
 	1    0    0    -1  
@@ -1335,7 +1335,7 @@ U 1 1 5BA5D38C
 P 10550 8250
 F 0 "C40" H 10665 8296 50  0000 L CNN
 F 1 "2.2uF" H 10665 8205 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10588 8100 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 10588 8100 50  0001 C CNN
 F 3 "~" H 10550 8250 50  0001 C CNN
 	1    10550 8250
 	1    0    0    -1  
@@ -1346,7 +1346,7 @@ U 1 1 5BA5D392
 P 10950 8250
 F 0 "C43" H 11065 8296 50  0000 L CNN
 F 1 "100nF" H 11065 8205 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10988 8100 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 10988 8100 50  0001 C CNN
 F 3 "~" H 10950 8250 50  0001 C CNN
 	1    10950 8250
 	1    0    0    -1  
@@ -1377,7 +1377,7 @@ U 1 1 5BABD320
 P 9750 8500
 F 0 "C33" H 9865 8546 50  0000 L CNN
 F 1 "10nF" H 9865 8455 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9788 8350 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 9788 8350 50  0001 C CNN
 F 3 "~" H 9750 8500 50  0001 C CNN
 	1    9750 8500
 	1    0    0    -1  
@@ -1555,7 +1555,7 @@ U 1 1 5BEEDCD9
 P 16000 6250
 F 0 "R26" H 16070 6296 50  0000 L CNN
 F 1 "10k" H 16070 6205 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 15930 6250 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" V 15930 6250 50  0001 C CNN
 F 3 "~" H 16000 6250 50  0001 C CNN
 	1    16000 6250
 	1    0    0    -1  
@@ -1591,7 +1591,7 @@ U 1 1 5C039311
 P 16100 5700
 F 0 "R27" H 16170 5746 50  0000 L CNN
 F 1 "3.9k" H 16170 5655 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 16030 5700 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" V 16030 5700 50  0001 C CNN
 F 3 "~" H 16100 5700 50  0001 C CNN
 	1    16100 5700
 	1    0    0    -1  
@@ -1602,7 +1602,7 @@ U 1 1 5C0393DF
 P 16400 5700
 F 0 "R29" H 16470 5746 50  0000 L CNN
 F 1 "3.9k" H 16470 5655 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 16330 5700 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" V 16330 5700 50  0001 C CNN
 F 3 "~" H 16400 5700 50  0001 C CNN
 	1    16400 5700
 	1    0    0    -1  
@@ -1629,7 +1629,7 @@ U 1 1 5B4AA9CC
 P 19200 6650
 F 0 "R30" V 18993 6650 50  0000 C CNN
 F 1 "1k" V 19084 6650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 19130 6650 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" V 19130 6650 50  0001 C CNN
 F 3 "~" H 19200 6650 50  0001 C CNN
 	1    19200 6650
 	0    1    1    0   
@@ -1674,7 +1674,7 @@ U 1 1 5B596E5F
 P 7450 1700
 F 0 "C45" V 7550 1700 50  0000 C CNN
 F 1 "1uF" V 7350 1700 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7450 1700 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 7450 1700 50  0001 C CNN
 F 3 "~" H 7450 1700 50  0001 C CNN
 	1    7450 1700
 	0    -1   -1   0   
@@ -1799,7 +1799,7 @@ U 1 1 5B85637B
 P 3000 9000
 F 0 "C29" H 3100 9050 50  0000 L CNN
 F 1 "4.7nF" H 3250 9050 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 9000 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 9000 50  0001 C CNN
 F 3 "~" H 3000 9000 50  0001 C CNN
 	1    3000 9000
 	1    0    0    -1  
@@ -1810,7 +1810,7 @@ U 1 1 5B856381
 P 3000 8800
 F 0 "C28" H 3100 8800 50  0000 L CNN
 F 1 "4.7nF" H 3250 8800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 8800 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 8800 50  0001 C CNN
 F 3 "~" H 3000 8800 50  0001 C CNN
 	1    3000 8800
 	1    0    0    -1  
@@ -1833,7 +1833,7 @@ U 1 1 5B85638E
 P 2900 8700
 F 0 "R18" V 2900 8700 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 8450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 8700 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 8700 50  0001 C CNN
 F 3 "~" H 2900 8700 50  0001 C CNN
 	1    2900 8700
 	0    1    1    0   
@@ -1844,7 +1844,7 @@ U 1 1 5B856394
 P 2900 9100
 F 0 "R19" V 2900 9100 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 8850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 9100 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 9100 50  0001 C CNN
 F 3 "~" H 2900 9100 50  0001 C CNN
 	1    2900 9100
 	0    1    1    0   
@@ -1865,7 +1865,7 @@ U 1 1 5B8E1468
 P 3000 8400
 F 0 "C27" H 3100 8450 50  0000 L CNN
 F 1 "4.7nF" H 3250 8450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 8400 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 8400 50  0001 C CNN
 F 3 "~" H 3000 8400 50  0001 C CNN
 	1    3000 8400
 	1    0    0    -1  
@@ -1876,7 +1876,7 @@ U 1 1 5B8E146E
 P 3000 8200
 F 0 "C26" H 3100 8200 50  0000 L CNN
 F 1 "4.7nF" H 3250 8200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 8200 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 8200 50  0001 C CNN
 F 3 "~" H 3000 8200 50  0001 C CNN
 	1    3000 8200
 	1    0    0    -1  
@@ -1899,7 +1899,7 @@ U 1 1 5B8E147B
 P 2900 8100
 F 0 "R16" V 2900 8100 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 7850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 8100 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 8100 50  0001 C CNN
 F 3 "~" H 2900 8100 50  0001 C CNN
 	1    2900 8100
 	0    1    1    0   
@@ -1910,7 +1910,7 @@ U 1 1 5B8E1481
 P 2900 8500
 F 0 "R17" V 2900 8500 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 8250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 8500 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 8500 50  0001 C CNN
 F 3 "~" H 2900 8500 50  0001 C CNN
 	1    2900 8500
 	0    1    1    0   
@@ -1927,7 +1927,7 @@ U 1 1 5B8FF237
 P 3000 7800
 F 0 "C25" H 3100 7850 50  0000 L CNN
 F 1 "4.7nF" H 3250 7850 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 7800 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 7800 50  0001 C CNN
 F 3 "~" H 3000 7800 50  0001 C CNN
 	1    3000 7800
 	1    0    0    -1  
@@ -1938,7 +1938,7 @@ U 1 1 5B8FF23D
 P 3000 7600
 F 0 "C24" H 3100 7600 50  0000 L CNN
 F 1 "4.7nF" H 3250 7600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 7600 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 7600 50  0001 C CNN
 F 3 "~" H 3000 7600 50  0001 C CNN
 	1    3000 7600
 	1    0    0    -1  
@@ -1961,7 +1961,7 @@ U 1 1 5B8FF24A
 P 2900 7500
 F 0 "R14" V 2900 7500 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 7250 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 7500 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 7500 50  0001 C CNN
 F 3 "~" H 2900 7500 50  0001 C CNN
 	1    2900 7500
 	0    1    1    0   
@@ -1972,7 +1972,7 @@ U 1 1 5B8FF250
 P 2900 7900
 F 0 "R15" V 2900 7900 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 7650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 7900 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 7900 50  0001 C CNN
 F 3 "~" H 2900 7900 50  0001 C CNN
 	1    2900 7900
 	0    1    1    0   
@@ -1989,7 +1989,7 @@ U 1 1 5B8FF25C
 P 3000 7200
 F 0 "C23" H 3100 7250 50  0000 L CNN
 F 1 "4.7nF" H 3250 7250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 7200 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 7200 50  0001 C CNN
 F 3 "~" H 3000 7200 50  0001 C CNN
 	1    3000 7200
 	1    0    0    -1  
@@ -2000,7 +2000,7 @@ U 1 1 5B8FF262
 P 3000 7000
 F 0 "C22" H 3100 7000 50  0000 L CNN
 F 1 "4.7nF" H 3250 7000 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 7000 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 7000 50  0001 C CNN
 F 3 "~" H 3000 7000 50  0001 C CNN
 	1    3000 7000
 	1    0    0    -1  
@@ -2023,7 +2023,7 @@ U 1 1 5B8FF26F
 P 2900 6900
 F 0 "R12" V 2900 6900 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 6650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 6900 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 6900 50  0001 C CNN
 F 3 "~" H 2900 6900 50  0001 C CNN
 	1    2900 6900
 	0    1    1    0   
@@ -2034,7 +2034,7 @@ U 1 1 5B8FF275
 P 2900 7300
 F 0 "R13" V 2900 7300 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 7050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 7300 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 7300 50  0001 C CNN
 F 3 "~" H 2900 7300 50  0001 C CNN
 	1    2900 7300
 	0    1    1    0   
@@ -2079,7 +2079,7 @@ U 1 1 5BAF0A93
 P 3000 9600
 F 0 "C31" H 3100 9650 50  0000 L CNN
 F 1 "4.7nF" H 3250 9650 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 9600 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 9600 50  0001 C CNN
 F 3 "~" H 3000 9600 50  0001 C CNN
 	1    3000 9600
 	1    0    0    -1  
@@ -2090,7 +2090,7 @@ U 1 1 5BAF0A99
 P 3000 9400
 F 0 "C30" H 3100 9400 50  0000 L CNN
 F 1 "4.7nF" H 3250 9400 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 9400 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 9400 50  0001 C CNN
 F 3 "~" H 3000 9400 50  0001 C CNN
 	1    3000 9400
 	1    0    0    -1  
@@ -2113,7 +2113,7 @@ U 1 1 5BAF0AA6
 P 2900 9300
 F 0 "R20" V 2900 9300 50  0000 C CNN
 F 1 "4.99k 1%" V 2950 9050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 9300 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 9300 50  0001 C CNN
 F 3 "~" H 2900 9300 50  0001 C CNN
 	1    2900 9300
 	0    1    1    0   
@@ -2124,7 +2124,7 @@ U 1 1 5BAF0AAC
 P 2900 9700
 F 0 "R21" V 2900 9700 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 9450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 9700 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 9700 50  0001 C CNN
 F 3 "~" H 2900 9700 50  0001 C CNN
 	1    2900 9700
 	0    1    1    0   
@@ -2200,7 +2200,7 @@ U 1 1 5B7F50C7
 P 16200 1350
 F 0 "R28" H 16270 1396 50  0000 L CNN
 F 1 "10k" H 16270 1305 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 16130 1350 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" V 16130 1350 50  0001 C CNN
 F 3 "~" H 16200 1350 50  0001 C CNN
 	1    16200 1350
 	1    0    0    -1  
@@ -2211,7 +2211,7 @@ U 1 1 5B81CD42
 P 15950 1350
 F 0 "R25" H 16020 1396 50  0000 L CNN
 F 1 "10k" H 16020 1305 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 15880 1350 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" V 15880 1350 50  0001 C CNN
 F 3 "~" H 15950 1350 50  0001 C CNN
 	1    15950 1350
 	1    0    0    -1  
@@ -2222,7 +2222,7 @@ U 1 1 5B81CE1A
 P 15700 1350
 F 0 "R24" H 15770 1396 50  0000 L CNN
 F 1 "10k" H 15770 1305 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 15630 1350 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" V 15630 1350 50  0001 C CNN
 F 3 "~" H 15700 1350 50  0001 C CNN
 	1    15700 1350
 	1    0    0    -1  
@@ -2233,7 +2233,7 @@ U 1 1 5B81CEEA
 P 15450 1350
 F 0 "R23" H 15520 1396 50  0000 L CNN
 F 1 "10k" H 15520 1305 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 15380 1350 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" V 15380 1350 50  0001 C CNN
 F 3 "~" H 15450 1350 50  0001 C CNN
 	1    15450 1350
 	1    0    0    -1  
@@ -2277,7 +2277,7 @@ U 1 1 5BC72DF7
 P 3000 5550
 F 0 "C19" H 3100 5550 50  0000 L CNN
 F 1 "4.7nF" H 3300 5550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 5550 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 5550 50  0001 C CNN
 F 3 "~" H 3000 5550 50  0001 C CNN
 	1    3000 5550
 	1    0    0    -1  
@@ -2288,7 +2288,7 @@ U 1 1 5BC72DFD
 P 3000 5350
 F 0 "C18" H 3100 5350 50  0000 L CNN
 F 1 "4.7nF" H 3250 5350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 5350 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 5350 50  0001 C CNN
 F 3 "~" H 3000 5350 50  0001 C CNN
 	1    3000 5350
 	1    0    0    -1  
@@ -2311,7 +2311,7 @@ U 1 1 5BC72E0A
 P 2900 5250
 F 0 "R8" V 2900 5250 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 5000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 5250 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 5250 50  0001 C CNN
 F 3 "~" H 2900 5250 50  0001 C CNN
 	1    2900 5250
 	0    1    1    0   
@@ -2322,7 +2322,7 @@ U 1 1 5BC72E10
 P 2900 5650
 F 0 "R9" V 2900 5650 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 5400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 5650 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 5650 50  0001 C CNN
 F 3 "~" H 2900 5650 50  0001 C CNN
 	1    2900 5650
 	0    1    1    0   
@@ -2337,7 +2337,7 @@ U 1 1 5BC72E1C
 P 3000 4950
 F 0 "C17" H 3100 4950 50  0000 L CNN
 F 1 "4.7nF" H 3300 4950 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 4950 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 4950 50  0001 C CNN
 F 3 "~" H 3000 4950 50  0001 C CNN
 	1    3000 4950
 	1    0    0    -1  
@@ -2348,7 +2348,7 @@ U 1 1 5BC72E22
 P 3000 4750
 F 0 "C16" H 3100 4750 50  0000 L CNN
 F 1 "4.7nF" H 3250 4750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 4750 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 4750 50  0001 C CNN
 F 3 "~" H 3000 4750 50  0001 C CNN
 	1    3000 4750
 	1    0    0    -1  
@@ -2371,7 +2371,7 @@ U 1 1 5BC72E2F
 P 2900 4650
 F 0 "R6" V 2900 4650 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 4400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 4650 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 4650 50  0001 C CNN
 F 3 "~" H 2900 4650 50  0001 C CNN
 	1    2900 4650
 	0    1    1    0   
@@ -2382,7 +2382,7 @@ U 1 1 5BC72E35
 P 2900 5050
 F 0 "R7" V 2900 5050 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 4800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 5050 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 5050 50  0001 C CNN
 F 3 "~" H 2900 5050 50  0001 C CNN
 	1    2900 5050
 	0    1    1    0   
@@ -2397,7 +2397,7 @@ U 1 1 5BC72E3F
 P 3000 4350
 F 0 "C15" H 3100 4350 50  0000 L CNN
 F 1 "4.7nF" H 3300 4350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 4350 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 4350 50  0001 C CNN
 F 3 "~" H 3000 4350 50  0001 C CNN
 	1    3000 4350
 	1    0    0    -1  
@@ -2408,7 +2408,7 @@ U 1 1 5BC72E45
 P 3000 4150
 F 0 "C14" H 3100 4150 50  0000 L CNN
 F 1 "4.7nF" H 3250 4150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 4150 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 4150 50  0001 C CNN
 F 3 "~" H 3000 4150 50  0001 C CNN
 	1    3000 4150
 	1    0    0    -1  
@@ -2431,7 +2431,7 @@ U 1 1 5BC72E52
 P 2900 4050
 F 0 "R4" V 2900 4050 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 3800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 4050 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 4050 50  0001 C CNN
 F 3 "~" H 2900 4050 50  0001 C CNN
 	1    2900 4050
 	0    1    1    0   
@@ -2442,7 +2442,7 @@ U 1 1 5BC72E58
 P 2900 4450
 F 0 "R5" V 2900 4450 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 4200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 4450 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 4450 50  0001 C CNN
 F 3 "~" H 2900 4450 50  0001 C CNN
 	1    2900 4450
 	0    1    1    0   
@@ -2457,7 +2457,7 @@ U 1 1 5BC72E62
 P 3000 3750
 F 0 "C13" H 3100 3750 50  0000 L CNN
 F 1 "4.7nF" H 3250 3750 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 3750 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 3750 50  0001 C CNN
 F 3 "~" H 3000 3750 50  0001 C CNN
 	1    3000 3750
 	1    0    0    -1  
@@ -2479,7 +2479,7 @@ U 1 1 5BC72E7B
 P 2900 3650
 F 0 "R3" V 2900 3650 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 3650 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 3650 50  0001 C CNN
 F 3 "~" H 2900 3650 50  0001 C CNN
 	1    2900 3650
 	0    1    1    0   
@@ -2516,7 +2516,7 @@ U 1 1 5BC72EA1
 P 3000 6150
 F 0 "C21" H 3100 6150 50  0000 L CNN
 F 1 "4.7nF" H 3300 6150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 6150 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 6150 50  0001 C CNN
 F 3 "~" H 3000 6150 50  0001 C CNN
 	1    3000 6150
 	1    0    0    -1  
@@ -2527,7 +2527,7 @@ U 1 1 5BC72EA7
 P 3000 5950
 F 0 "C20" H 3100 5950 50  0000 L CNN
 F 1 "4.7nF" H 3250 5950 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3000 5950 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3000 5950 50  0001 C CNN
 F 3 "~" H 3000 5950 50  0001 C CNN
 	1    3000 5950
 	1    0    0    -1  
@@ -2550,7 +2550,7 @@ U 1 1 5BC72EB4
 P 2900 5850
 F 0 "R10" V 2900 5850 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 5600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 5850 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 5850 50  0001 C CNN
 F 3 "~" H 2900 5850 50  0001 C CNN
 	1    2900 5850
 	0    1    1    0   
@@ -2561,7 +2561,7 @@ U 1 1 5BC72EBA
 P 2900 6250
 F 0 "R11" V 2900 6250 50  0000 C CNN
 F 1 "4.99k 1%" V 2850 6000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 2900 6250 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" H 2900 6250 50  0001 C CNN
 F 3 "~" H 2900 6250 50  0001 C CNN
 	1    2900 6250
 	0    1    1    0   
@@ -2697,7 +2697,7 @@ U 1 1 5C9839C9
 P 4200 2600
 F 0 "Rf1" V 4200 2550 50  0000 L CNN
 F 1 "1M" V 4300 2550 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4130 2600 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" V 4130 2600 50  0001 C CNN
 F 3 "~" H 4200 2600 50  0001 C CNN
 	1    4200 2600
 	0    1    1    0   
@@ -2708,7 +2708,7 @@ U 1 1 5CA68B5C
 P 4200 2900
 F 0 "Cf1" V 4250 2950 50  0000 L CNN
 F 1 "1.5nF" V 4350 2800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4238 2750 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 4238 2750 50  0001 C CNN
 F 3 "~" H 4200 2900 50  0001 C CNN
 	1    4200 2900
 	0    1    1    0   
@@ -2920,7 +2920,7 @@ U 1 1 5D612968
 P 13650 5650
 F 0 "C54" V 13600 5500 50  0000 C CNN
 F 1 "1uF" V 13600 5800 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 13688 5500 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 13688 5500 50  0001 C CNN
 F 3 "~" H 13650 5650 50  0001 C CNN
 	1    13650 5650
 	0    1    1    0   
@@ -2945,7 +2945,7 @@ U 1 1 5D73820C
 P 13650 5100
 F 0 "C52" V 13600 4950 50  0000 C CNN
 F 1 "1uF" V 13600 5250 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 13688 4950 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 13688 4950 50  0001 C CNN
 F 3 "~" H 13650 5100 50  0001 C CNN
 	1    13650 5100
 	0    1    1    0   
@@ -3195,7 +3195,7 @@ U 1 1 5F11617B
 P 19200 7200
 F 0 "R31" V 18993 7200 50  0000 C CNN
 F 1 "1k" V 19084 7200 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 19130 7200 50  0001 C CNN
+F 2 "prj_lib_fp:R_0805_HandSoldering_enclose_footprint" V 19130 7200 50  0001 C CNN
 F 3 "~" H 19200 7200 50  0001 C CNN
 	1    19200 7200
 	0    1    1    0   
@@ -3240,7 +3240,7 @@ U 1 1 5F1BDCB7
 P 13650 6200
 F 0 "C55" V 13600 6050 50  0000 C CNN
 F 1 "1uF" V 13600 6350 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 13688 6050 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 13688 6050 50  0001 C CNN
 F 3 "~" H 13650 6200 50  0001 C CNN
 	1    13650 6200
 	0    1    1    0   
@@ -3261,7 +3261,7 @@ U 1 1 5F2631B7
 P 13650 6450
 F 0 "C56" V 13600 6300 50  0000 C CNN
 F 1 "100nF" V 13600 6650 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 13688 6300 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 13688 6300 50  0001 C CNN
 F 3 "~" H 13650 6450 50  0001 C CNN
 	1    13650 6450
 	0    1    1    0   
@@ -3423,7 +3423,7 @@ U 1 1 5F89D067
 P 13650 6750
 F 0 "C57" V 13600 6600 50  0000 C CNN
 F 1 "1uF" V 13600 6900 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 13688 6600 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 13688 6600 50  0001 C CNN
 F 3 "~" H 13650 6750 50  0001 C CNN
 	1    13650 6750
 	0    1    1    0   
@@ -3434,7 +3434,7 @@ U 1 1 5F89D06D
 P 13650 7000
 F 0 "C58" V 13600 6850 50  0000 C CNN
 F 1 "100nF" V 13600 7200 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 13688 6850 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 13688 6850 50  0001 C CNN
 F 3 "~" H 13650 7000 50  0001 C CNN
 	1    13650 7000
 	0    1    1    0   
@@ -3474,7 +3474,7 @@ U 1 1 5F94DF85
 P 13650 7300
 F 0 "C59" V 13600 7150 50  0000 C CNN
 F 1 "1uF" V 13600 7450 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 13688 7150 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 13688 7150 50  0001 C CNN
 F 3 "~" H 13650 7300 50  0001 C CNN
 	1    13650 7300
 	0    1    1    0   
@@ -3485,7 +3485,7 @@ U 1 1 5F94DF8B
 P 13650 7550
 F 0 "C60" V 13600 7400 50  0000 C CNN
 F 1 "100nF" V 13600 7750 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 13688 7400 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 13688 7400 50  0001 C CNN
 F 3 "~" H 13650 7550 50  0001 C CNN
 	1    13650 7550
 	0    1    1    0   
@@ -3775,7 +3775,7 @@ U 1 1 5B658336
 P 3600 4250
 F 0 "C62" H 3715 4296 50  0000 L CNN
 F 1 "DNP" H 3715 4205 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 4100 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3638 4100 50  0001 C CNN
 F 3 "~" H 3600 4250 50  0001 C CNN
 	1    3600 4250
 	1    0    0    -1  
@@ -3796,7 +3796,7 @@ U 1 1 5B7B4B95
 P 3600 4850
 F 0 "C63" H 3715 4896 50  0000 L CNN
 F 1 "DNP" H 3715 4805 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 4700 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3638 4700 50  0001 C CNN
 F 3 "~" H 3600 4850 50  0001 C CNN
 	1    3600 4850
 	1    0    0    -1  
@@ -3817,7 +3817,7 @@ U 1 1 5B867A9A
 P 3600 5450
 F 0 "C64" H 3715 5496 50  0000 L CNN
 F 1 "DNP" H 3715 5405 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 5300 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3638 5300 50  0001 C CNN
 F 3 "~" H 3600 5450 50  0001 C CNN
 	1    3600 5450
 	1    0    0    -1  
@@ -3838,7 +3838,7 @@ U 1 1 5B8C2215
 P 3600 6050
 F 0 "C65" H 3715 6096 50  0000 L CNN
 F 1 "DNP" H 3715 6005 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 5900 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3638 5900 50  0001 C CNN
 F 3 "~" H 3600 6050 50  0001 C CNN
 	1    3600 6050
 	1    0    0    -1  
@@ -3859,7 +3859,7 @@ U 1 1 5BA33AEE
 P 3600 7100
 F 0 "C66" H 3715 7146 50  0000 L CNN
 F 1 "DNP" H 3715 7055 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 6950 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3638 6950 50  0001 C CNN
 F 3 "~" H 3600 7100 50  0001 C CNN
 	1    3600 7100
 	1    0    0    -1  
@@ -3880,7 +3880,7 @@ U 1 1 5BA91126
 P 3600 7700
 F 0 "C67" H 3715 7746 50  0000 L CNN
 F 1 "DNP" H 3715 7655 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 7550 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3638 7550 50  0001 C CNN
 F 3 "~" H 3600 7700 50  0001 C CNN
 	1    3600 7700
 	1    0    0    -1  
@@ -3901,7 +3901,7 @@ U 1 1 5BAEF424
 P 3600 8300
 F 0 "C68" H 3715 8346 50  0000 L CNN
 F 1 "DNP" H 3715 8255 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 8150 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3638 8150 50  0001 C CNN
 F 3 "~" H 3600 8300 50  0001 C CNN
 	1    3600 8300
 	1    0    0    -1  
@@ -3922,7 +3922,7 @@ U 1 1 5BB4EB16
 P 3600 8900
 F 0 "C69" H 3715 8946 50  0000 L CNN
 F 1 "DNP" H 3715 8855 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 8750 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3638 8750 50  0001 C CNN
 F 3 "~" H 3600 8900 50  0001 C CNN
 	1    3600 8900
 	1    0    0    -1  
@@ -3943,7 +3943,7 @@ U 1 1 5BBAF61C
 P 3600 9500
 F 0 "C70" H 3715 9546 50  0000 L CNN
 F 1 "DNP" H 3715 9455 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3638 9350 50  0001 C CNN
+F 2 "prj_lib_fp:C_0805_HandSoldering_enclosed_footprint" H 3638 9350 50  0001 C CNN
 F 3 "~" H 3600 9500 50  0001 C CNN
 	1    3600 9500
 	1    0    0    -1  

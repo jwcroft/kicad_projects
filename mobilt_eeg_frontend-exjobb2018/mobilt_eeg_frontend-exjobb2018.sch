@@ -3971,14 +3971,14 @@ Wire Notes Line
 $Comp
 L project_symbols:arduino_pro_mini_3V3_sparkfun U7
 U 1 1 5B86FA69
-P 17300 7750
-F 0 "U7" H 17675 8097 50  0000 C CNN
-F 1 "arduino_pro_mini_3V3_sparkfun" H 17675 8006 50  0000 C CNN
-F 2 "prj_lib_fp:arduino_pro_mini_3V3_sparkfun" H 17300 7750 50  0001 C CNN
-F 3 "https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMini8MHzv1.pdf" H 17300 7750 50  0001 C CNN
-F 4 "Sparkfun" H 17675 7915 50  0000 C CNN "Manufacturer"
-F 5 "https://www.sparkfun.com/products/11114" H 17675 7824 50  0000 C CNN "Retail"
-	1    17300 7750
+P 17300 9500
+F 0 "U7" H 17675 9847 50  0000 C CNN
+F 1 "arduino_pro_mini_3V3_sparkfun" H 17675 9756 50  0000 C CNN
+F 2 "prj_lib_fp:arduino_pro_mini_3V3_sparkfun" H 17300 9500 50  0001 C CNN
+F 3 "https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMini8MHzv1.pdf" H 17300 9500 50  0001 C CNN
+F 4 "Sparkfun" H 17675 9665 50  0000 C CNN "Manufacturer"
+F 5 "https://www.sparkfun.com/products/11114" H 17675 9574 50  0000 C CNN "Retail"
+	1    17300 9500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
