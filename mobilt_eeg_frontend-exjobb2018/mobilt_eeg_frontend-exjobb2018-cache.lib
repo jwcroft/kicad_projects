@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector_Generic_Conn_01x02
+# Connector_Generic:Conn_01x02
 #
-DEF Connector_Generic_Conn_01x02 J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
-F1 "Connector_Generic_Conn_01x02" 0 -200 50 H V C CNN
+F1 "Connector_Generic:Conn_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -20,11 +20,11 @@ X Pin_2 2 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x04
+# Connector_Generic:Conn_01x04
 #
-DEF Connector_Generic_Conn_01x04 J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_01x04 J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "Connector_Generic_Conn_01x04" 0 -300 50 H V C CNN
+F1 "Connector_Generic:Conn_01x04" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -43,11 +43,11 @@ X Pin_4 4 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x08
+# Connector_Generic:Conn_01x08
 #
-DEF Connector_Generic_Conn_01x08 J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_01x08 J 0 40 Y N 1 F N
 F0 "J" 0 400 50 H V C CNN
-F1 "Connector_Generic_Conn_01x08" 0 -500 50 H V C CNN
+F1 "Connector_Generic:Conn_01x08" 0 -500 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -74,11 +74,11 @@ X Pin_8 8 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_01x10
+# Connector_Generic:Conn_01x10
 #
-DEF Connector_Generic_Conn_01x10 J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_01x10 J 0 40 Y N 1 F N
 F0 "J" 0 500 50 H V C CNN
-F1 "Connector_Generic_Conn_01x10" 0 -600 50 H V C CNN
+F1 "Connector_Generic:Conn_01x10" 0 -600 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -109,11 +109,11 @@ X Pin_9 9 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_02x04_Odd_Even
+# Connector_Generic:Conn_02x04_Odd_Even
 #
-DEF Connector_Generic_Conn_02x04_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_02x04_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "Connector_Generic_Conn_02x04_Odd_Even" 50 -300 50 H V C CNN
+F1 "Connector_Generic:Conn_02x04_Odd_Even" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -140,11 +140,11 @@ X Pin_8 8 300 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic_Conn_02x20_Odd_Even
+# Connector_Generic:Conn_02x20_Odd_Even
 #
-DEF Connector_Generic_Conn_02x20_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic:Conn_02x20_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 1000 50 H V C CNN
-F1 "Connector_Generic_Conn_02x20_Odd_Even" 50 -1100 50 H V C CNN
+F1 "Connector_Generic:Conn_02x20_Odd_Even" 50 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -235,11 +235,11 @@ X Pin_9 9 -200 500 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_C
+# Device:C
 #
-DEF Device_C C 0 10 N Y 1 F N
+DEF Device:C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device_C" 25 -100 50 H V L CNN
+F1 "Device:C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -253,11 +253,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_CP
+# Device:CP
 #
-DEF Device_CP C 0 10 N Y 1 F N
+DEF Device:CP C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device_CP" 25 -100 50 H V L CNN
+F1 "Device:CP" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -276,11 +276,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_C_Small
+# Device:C_Small
 #
-DEF Device_C_Small C 0 10 N N 1 F N
+DEF Device:C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "Device_C_Small" 10 -80 50 H V L CNN
+F1 "Device:C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -294,11 +294,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_LED
+# Device:LED
 #
-DEF Device_LED D 0 40 N N 1 F N
+DEF Device:LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device_LED" 0 -100 50 H V C CNN
+F1 "Device:LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -317,11 +317,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R
+# Device:R
 #
-DEF Device_R R 0 0 N Y 1 F N
+DEF Device:R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device_R" 0 0 50 V V C CNN
+F1 "Device:R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -334,11 +334,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R_Small
+# Device:R_Small
 #
-DEF Device_R_Small R 0 10 N N 1 F N
+DEF Device:R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "Device_R_Small" 30 -40 50 H V L CNN
+F1 "Device:R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -351,11 +351,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Memory_EEPROM_CAT24C256
+# Memory_EEPROM:CAT24C256
 #
-DEF Memory_EEPROM_CAT24C256 U 0 20 Y Y 1 F N
+DEF Memory_EEPROM:CAT24C256 U 0 20 Y Y 1 F N
 F0 "U" -300 250 50 H V C CNN
-F1 "Memory_EEPROM_CAT24C256" 100 -250 50 H V L CNN
+F1 "Memory_EEPROM:CAT24C256" 100 -250 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS 24LC02 24LC00 24LC04 24LC08 24LC01 24LC512 24LC64 24LC1025 24LC32 24LC256 24LC128 CAT24C256
@@ -378,11 +378,11 @@ X VCC 8 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# Switch_SW_DIP_x01
+# Switch:SW_DIP_x01
 #
-DEF Switch_SW_DIP_x01 SW 0 0 Y N 1 F N
+DEF Switch:SW_DIP_x01 SW 0 0 Y N 1 F N
 F0 "SW" 0 150 50 H V C CNN
-F1 "Switch_SW_DIP_x01" 0 -150 50 H V C CNN
+F1 "Switch:SW_DIP_x01" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -398,11 +398,11 @@ X ~ 2 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mobilt_eeg_frontend-exjobb2018-rescue_Mounting_Hole-Mechanical
+# mobilt_eeg_frontend-exjobb2018-rescue:Mounting_Hole-Mechanical
 #
-DEF mobilt_eeg_frontend-exjobb2018-rescue_Mounting_Hole-Mechanical MK 0 40 Y Y 1 F N
+DEF mobilt_eeg_frontend-exjobb2018-rescue:Mounting_Hole-Mechanical MK 0 40 Y Y 1 F N
 F0 "MK" 0 200 50 H V C CNN
-F1 "mobilt_eeg_frontend-exjobb2018-rescue_Mounting_Hole-Mechanical" 0 125 50 H V C CNN
+F1 "mobilt_eeg_frontend-exjobb2018-rescue:Mounting_Hole-Mechanical" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -414,11 +414,11 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# power_+5V
+# power:+5V
 #
-DEF power_+5V #PWR 0 0 Y Y 1 F P
+DEF power:+5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
+F1 "power:+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -429,11 +429,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power_PWR_FLAG
+# power:PWR_FLAG
 #
-DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+DEF power:PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
-F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F1 "power:PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -442,11 +442,11 @@ X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# project_symbols_ADS1299-4PAG
+# project_symbols:ADS1299-4PAG
 #
-DEF project_symbols_ADS1299-4PAG U 0 40 Y Y 1 L N
+DEF project_symbols:ADS1299-4PAG U 0 40 Y Y 1 L N
 F0 "U" -803 1605 50 H V L BNN
-F1 "project_symbols_ADS1299-4PAG" -800 -1500 50 H V L BNN
+F1 "project_symbols:ADS1299-4PAG" -800 -1500 50 H V L BNN
 F2 "xQFP_64_to_2.54mm_adapter" 1500 1100 50 H I L BNN
 F3 "http://www.ti.com/lit/ds/symlink/ads1299-4.pdf" 1450 1400 50 H I L BNN
 F4 "Low-Noise, 4-Channel, 24-Bit Analog-to-Digital Converter for Biopotential Measurements 64-TQFP -40 to 85" 1450 1300 50 H I L BNN "Description"
@@ -522,11 +522,11 @@ X IN4N 9 -900 700 100 R 40 40 0 0 I
 ENDDRAW
 ENDDEF
 #
-# project_symbols_AGND
+# project_symbols:AGND
 #
-DEF project_symbols_AGND #PWR 0 0 Y Y 1 F P
+DEF project_symbols:AGND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "project_symbols_AGND" 0 -125 50 H V C CNN
+F1 "project_symbols:AGND" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -535,11 +535,11 @@ X AGND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# project_symbols_AVDD
+# project_symbols:AVDD
 #
-DEF project_symbols_AVDD #PWR 0 0 Y Y 1 F P
+DEF project_symbols:AVDD #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "project_symbols_AVDD" 0 150 50 H V C CNN
+F1 "project_symbols:AVDD" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -549,11 +549,11 @@ X AVDD 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# project_symbols_AVSS
+# project_symbols:AVSS
 #
-DEF project_symbols_AVSS #PWR 0 0 Y Y 1 F P
+DEF project_symbols:AVSS #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "project_symbols_AVSS" 0 150 50 H V C CNN
+F1 "project_symbols:AVSS" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -563,11 +563,11 @@ X AVSS 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# project_symbols_DGND
+# project_symbols:DGND
 #
-DEF project_symbols_DGND #PWR 0 0 Y Y 1 F P
+DEF project_symbols:DGND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "project_symbols_DGND" 0 -125 50 H V C CNN
+F1 "project_symbols:DGND" 0 -125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -577,11 +577,11 @@ X DGND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# project_symbols_DVDD
+# project_symbols:DVDD
 #
-DEF project_symbols_DVDD #PWR 0 0 Y Y 1 F P
+DEF project_symbols:DVDD #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "project_symbols_DVDD" 0 150 50 H V C CNN
+F1 "project_symbols:DVDD" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -591,11 +591,11 @@ X DVDD 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# project_symbols_TPS60403DBVR
+# project_symbols:TPS60403DBVR
 #
-DEF project_symbols_TPS60403DBVR U 0 40 Y Y 1 L N
+DEF project_symbols:TPS60403DBVR U 0 40 Y Y 1 L N
 F0 "U" -500 550 50 H V L BNN
-F1 "project_symbols_TPS60403DBVR" -500 450 50 H V L BNN
+F1 "project_symbols:TPS60403DBVR" -500 450 50 H V L BNN
 F2 "SOT95P280X145-5N" 0 0 50 H I L BNN
 F3 "0.83 USD" 0 0 50 H I L BNN
 F4 "Good" 0 0 50 H I L BNN
@@ -616,11 +616,11 @@ X CFLY+ 5 -600 -200 200 R 40 40 0 0 I
 ENDDRAW
 ENDDEF
 #
-# project_symbols_TPS72325DBVT
+# project_symbols:TPS72325DBVT
 #
-DEF project_symbols_TPS72325DBVT U 0 40 Y Y 1 L N
+DEF project_symbols:TPS72325DBVT U 0 40 Y Y 1 L N
 F0 "U" -228 470 50 H V L BNN
-F1 "project_symbols_TPS72325DBVT" -111 -737 50 H V L BNN
+F1 "project_symbols:TPS72325DBVT" -111 -737 50 H V L BNN
 F2 "SOT95P280X145-5N" 0 0 50 H I L BNN
 F3 "Texas Instruments" 0 0 50 H I L BNN
 F4 "200mA, Negative Output Low-Dropout Linear Regulator 5-SOT-23 -40 to 125" 0 0 50 H I L BNN
@@ -641,11 +641,11 @@ X OUT 5 600 200 200 L 40 40 0 0 w
 ENDDRAW
 ENDDEF
 #
-# project_symbols_TPS73225DBVT
+# project_symbols:TPS73225DBVT
 #
-DEF project_symbols_TPS73225DBVT U 0 40 Y Y 1 L N
+DEF project_symbols:TPS73225DBVT U 0 40 Y Y 1 L N
 F0 "U" 0 200 50 H V L BNN
-F1 "project_symbols_TPS73225DBVT" -400 450 50 H V L BNN
+F1 "project_symbols:TPS73225DBVT" -400 450 50 H V L BNN
 F2 "SOT95P280X145-5N" 0 0 50 H I L BNN
 F3 "Texas Instruments" 0 0 50 H I L BNN
 F4 "Cap-Free, NMOS, 250mA Low Dropout Regulator with Reverse Current Protection 5-SOT-23 -40 to 125" 0 0 50 H I L BNN
@@ -664,11 +664,11 @@ X OUT 5 600 200 200 L 40 40 0 0 w
 ENDDRAW
 ENDDEF
 #
-# project_symbols_TPS73233DBVT
+# project_symbols:TPS73233DBVT
 #
-DEF project_symbols_TPS73233DBVT U 0 40 Y Y 1 L N
+DEF project_symbols:TPS73233DBVT U 0 40 Y Y 1 L N
 F0 "U" 0 200 50 H V L BNN
-F1 "project_symbols_TPS73233DBVT" -400 450 50 H V L BNN
+F1 "project_symbols:TPS73233DBVT" -400 450 50 H V L BNN
 F2 "SOT95P280X145-5N" 0 0 50 H I L BNN
 F3 "Texas Instruments" 0 0 50 H I L BNN
 F4 "Cap-Free, NMOS, 250mA Low Dropout Regulator with Reverse Current Protection 5-SOT-23 -40 to 125" 0 0 50 H I L BNN
@@ -689,11 +689,11 @@ X OUT 5 600 200 200 L 40 40 0 0 w
 ENDDRAW
 ENDDEF
 #
-# project_symbols_X1G0044810050_SG7050CAN_2.048_MHZ
+# project_symbols:X1G0044810050_SG7050CAN_2.048_MHZ
 #
-DEF project_symbols_X1G0044810050_SG7050CAN_2.048_MHZ X 0 40 Y Y 1 F N
+DEF project_symbols:X1G0044810050_SG7050CAN_2.048_MHZ X 0 40 Y Y 1 F N
 F0 "X" 0 300 50 H V C CNN
-F1 "project_symbols_X1G0044810050_SG7050CAN_2.048_MHZ" 50 200 50 H V C CNN
+F1 "project_symbols:X1G0044810050_SG7050CAN_2.048_MHZ" 50 200 50 H V C CNN
 F2 "SG0705" -50 0 50 H I C CNN
 F3 "http://www.farnell.com/datasheets/1841779.pdf" -700 450 50 H I C CNN
 F4 "2442953" -1500 550 50 H I C CNN "Farnell Part"
@@ -707,11 +707,11 @@ X VCC 4 -550 100 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# project_symbols_arduino_pro_mini_3V3_sparkfun
+# project_symbols:arduino_pro_mini_3V3_sparkfun
 #
-DEF project_symbols_arduino_pro_mini_3V3_sparkfun U 0 40 Y Y 1 F N
+DEF project_symbols:arduino_pro_mini_3V3_sparkfun U 0 40 Y Y 1 F N
 F0 "U" 300 200 50 H V C CNN
-F1 "project_symbols_arduino_pro_mini_3V3_sparkfun" 400 100 50 H V C CNN
+F1 "project_symbols:arduino_pro_mini_3V3_sparkfun" 400 100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMini8MHzv1.pdf" 0 0 50 H I C CNN
 F4 "Sparkfun" 400 100 50 H V C CNN "Manufacturer"
