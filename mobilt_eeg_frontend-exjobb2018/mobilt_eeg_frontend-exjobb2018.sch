@@ -490,17 +490,6 @@ Text Notes 17300 900  0    50   ~ 0
 Raspberry Pi 2/3 GPIO Header
 Text Notes 950  650  0    50   ~ 10
 MISC.
-$Comp
-L power:GNDD #PWR0101
-U 1 1 5B5A0D6C
-P 8500 4900
-F 0 "#PWR0101" H 8500 4650 50  0001 C CNN
-F 1 "GNDD" H 8504 4745 50  0000 C CNN
-F 2 "" H 8500 4900 50  0001 C CNN
-F 3 "" H 8500 4900 50  0001 C CNN
-	1    8500 4900
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8650 5100 7800 5100
 Wire Wire Line
@@ -3979,6 +3968,17 @@ F 3 "https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMini8MHzv1.pdf" H
 F 4 "Sparkfun" H 17675 9665 50  0000 C CNN "Manufacturer"
 F 5 "https://www.sparkfun.com/products/11114" H 17675 9574 50  0000 C CNN "Retail"
 	1    17300 9500
+	1    0    0    -1  
+$EndComp
+$Comp
+L project_symbols:DGND #PWR?
+U 1 1 5B6FCE52
+P 8500 4900
+F 0 "#PWR?" H 8500 4650 50  0001 C CNN
+F 1 "DGND" H 8504 4745 50  0000 C CNN
+F 2 "" H 8500 4900 50  0001 C CNN
+F 3 "" H 8500 4900 50  0001 C CNN
+	1    8500 4900
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
