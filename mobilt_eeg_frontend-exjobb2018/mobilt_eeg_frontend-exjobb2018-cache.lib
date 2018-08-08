@@ -351,22 +351,6 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Mechanical:Mounting_Hole
-#
-DEF Mechanical:Mounting_Hole MK 0 40 Y Y 1 F N
-F0 "MK" 0 200 50 H V C CNN
-F1 "Mechanical:Mounting_Hole" 0 125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Mounting?Hole*
- Hole*
-$ENDFPLIST
-DRAW
-C 0 0 50 0 1 50 N
-ENDDRAW
-ENDDEF
-#
 # Memory_EEPROM:CAT24C256
 #
 DEF Memory_EEPROM:CAT24C256 U 0 20 Y Y 1 F N
@@ -414,6 +398,22 @@ X ~ 2 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# mobilt_eeg_frontend-exjobb2018-rescue:Mounting_Hole-Mechanical
+#
+DEF mobilt_eeg_frontend-exjobb2018-rescue:Mounting_Hole-Mechanical MK 0 40 Y Y 1 F N
+F0 "MK" 0 200 50 H V C CNN
+F1 "mobilt_eeg_frontend-exjobb2018-rescue:Mounting_Hole-Mechanical" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Mounting?Hole*
+ Hole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
 # power:+5V
 #
 DEF power:+5V #PWR 0 0 Y Y 1 F P
@@ -426,20 +426,6 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:GNDD
-#
-DEF power:GNDD #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GNDD" 0 -125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -50 -60 50 -80 0 1 10 F
-P 2 0 1 0 0 0 0 -60 N
-X GNDD 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -718,6 +704,44 @@ X OE_or_~ST 1 -550 -50 200 R 50 50 1 1 I
 X GND 2 550 -50 200 L 50 50 1 1 W
 X OUT 3 550 100 200 L 50 50 1 1 O
 X VCC 4 -550 100 200 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# project_symbols:arduino_pro_mini_3V3_sparkfun
+#
+DEF project_symbols:arduino_pro_mini_3V3_sparkfun U 0 40 Y Y 1 F N
+F0 "U" 300 200 50 H V C CNN
+F1 "project_symbols:arduino_pro_mini_3V3_sparkfun" 400 100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMini8MHzv1.pdf" 0 0 50 H I C CNN
+F4 "Sparkfun" 400 100 50 H V C CNN "Manufacturer"
+F5 "https://www.sparkfun.com/products/11114" 500 0 50 H V C CNN "Retail"
+DRAW
+S 0 0 750 -1300 0 1 0 N
+X TXO 1 -200 -100 200 R 50 50 1 1 O
+X D7 10 -200 -1000 200 R 50 50 1 1 B
+X D8 11 -200 -1100 200 R 50 50 1 1 B
+X D9 12 -200 -1200 200 R 50 50 1 1 B
+X D10 13 950 -1200 200 L 50 50 1 1 B
+X MOSI 14 950 -1100 200 L 50 50 1 1 O
+X MISO 15 950 -1000 200 L 50 50 1 1 I
+X SCK 16 950 -900 200 L 50 50 1 1 O
+X A0 17 950 -800 200 L 50 50 1 1 I
+X A1 18 950 -700 200 L 50 50 1 1 I
+X A2 19 950 -600 200 L 50 50 1 1 I
+X RXI 2 -200 -200 200 R 50 50 1 1 I
+X A3 20 950 -500 200 L 50 50 1 1 I
+X VCC 21 950 -400 200 L 50 50 1 1 O
+X RESET 22 950 -300 200 L 50 50 1 1 I
+X GND 23 950 -200 200 L 50 50 1 1 W
+X RAW 24 950 -100 200 L 50 50 1 1 W
+X RESET 3 -200 -300 200 R 50 50 1 1 I
+X GND 4 -200 -400 200 R 50 50 1 1 W
+X D2 5 -200 -500 200 R 50 50 1 1 B
+X D3 6 -200 -600 200 R 50 50 1 1 B
+X D4 7 -200 -700 200 R 50 50 1 1 B
+X D5 8 -200 -800 200 R 50 50 1 1 B
+X D6 9 -200 -900 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
