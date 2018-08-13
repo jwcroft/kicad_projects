@@ -328,19 +328,19 @@ $EndComp
 Wire Wire Line
 	1150 1350 1150 1150
 Text Label 7800 4200 0    50   ~ 0
-GPIO10(SPI0_MOSI)
+MOSI
 Wire Wire Line
 	7800 4200 8650 4200
 Text Label 11200 3300 2    50   ~ 0
-GPIO9(SPI0_MISO)
+MISO
 Wire Wire Line
 	10450 3300 11200 3300
 Wire Wire Line
 	8650 4800 7800 4800
 Text Label 7800 4800 0    50   ~ 0
-GPIO11(SPI0_SCK)
+SPI_SCK
 Text Label 7800 4700 0    50   ~ 0
-GPIO8(SPI0_CE_N)
+SPI_SS
 Wire Wire Line
 	7800 4700 8650 4700
 Text Label 11200 3000 2    50   ~ 0
@@ -2620,29 +2620,29 @@ Post-Input filtering  \n(ease of measurement)
 $Comp
 L Connector_Generic:Conn_01x10 J5
 U 1 1 5C5FECBE
-P 16550 3200
-F 0 "J5" H 16630 3192 50  0000 L CNN
-F 1 "Data Header" H 16400 2600 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 16550 3200 50  0001 C CNN
-F 3 "~" H 16550 3200 50  0001 C CNN
-	1    16550 3200
+P 17000 9500
+F 0 "J5" H 17080 9492 50  0000 L CNN
+F 1 "Data Header" H 16850 8900 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10_Pitch2.54mm" H 17000 9500 50  0001 C CNN
+F 3 "~" H 17000 9500 50  0001 C CNN
+	1    17000 9500
 	1    0    0    -1  
 $EndComp
-Text Notes 15500 2500 0    50   ~ 0
+Text Notes 15950 8800 0    50   ~ 0
 Data Header \nBetween ADS1299 & RasPi
 $Comp
 L project_symbols:DGND #PWR013
 U 1 1 5C6010BE
-P 16050 2800
-F 0 "#PWR013" H 16050 2550 50  0001 C CNN
-F 1 "DGND" H 16054 2645 50  0000 C CNN
-F 2 "" H 16050 2800 50  0001 C CNN
-F 3 "" H 16050 2800 50  0001 C CNN
-	1    16050 2800
+P 16500 9100
+F 0 "#PWR013" H 16500 8850 50  0001 C CNN
+F 1 "DGND" H 16504 8945 50  0000 C CNN
+F 2 "" H 16500 9100 50  0001 C CNN
+F 3 "" H 16500 9100 50  0001 C CNN
+	1    16500 9100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	16050 2800 16350 2800
+	16500 9100 16800 9100
 Text Notes 17350 1200 0    50   ~ 0
 In case we need to bypass extern reg.
 Wire Notes Line
@@ -2770,42 +2770,42 @@ Text Notes 3350 3000 0    50   ~ 0
 For 4ch., Rf=500k?
 Text Notes 4400 3200 0    50   ~ 0
 Cf sets bandwidth\nof Bias Amp.
-Text Label 15600 3700 0    50   ~ 0
-GPIO10(SPI0_MOSI)
-Text Label 15600 3600 0    50   ~ 0
+Text Label 16050 10000 0    50   ~ 0
+SPI_MOSI
+Text Label 16050 9900 0    50   ~ 0
 ~PWDN
-Text Label 15600 3500 0    50   ~ 0
+Text Label 16050 9800 0    50   ~ 0
 ~RESET
-Text Label 15600 3400 0    50   ~ 0
+Text Label 16050 9700 0    50   ~ 0
 XTAL
-Text Label 15600 3300 0    50   ~ 0
+Text Label 16050 9600 0    50   ~ 0
 START
-Text Label 15600 3200 0    50   ~ 0
-GPIO8(SPI0_CE_N)
-Text Label 15600 3100 0    50   ~ 0
-GPIO11(SPI0_SCK)
-Text Label 15600 3000 0    50   ~ 0
-GPIO9(SPI0_MISO)
-Text Label 15600 2900 0    50   ~ 0
+Text Label 16050 9500 0    50   ~ 0
+SPI_SS
+Text Label 16050 9400 0    50   ~ 0
+SPI_SCK
+Text Label 16050 9300 0    50   ~ 0
+SPI_MISO
+Text Label 16050 9200 0    50   ~ 0
 ~DRDY
 Wire Wire Line
-	16350 2900 15600 2900
+	16800 9200 16050 9200
 Wire Wire Line
-	15600 3000 16350 3000
+	16050 9300 16800 9300
 Wire Wire Line
-	16350 3100 15600 3100
+	16800 9400 16050 9400
 Wire Wire Line
-	15600 3200 16350 3200
+	16050 9500 16800 9500
 Wire Wire Line
-	16350 3300 15600 3300
+	16800 9600 16050 9600
 Wire Wire Line
-	15600 3400 16350 3400
+	16050 9700 16800 9700
 Wire Wire Line
-	16350 3500 15600 3500
+	16800 9800 16050 9800
 Wire Wire Line
-	15600 3600 16350 3600
+	16050 9900 16800 9900
 Wire Wire Line
-	16350 3700 15600 3700
+	16800 10000 16050 10000
 $Comp
 L project_symbols:AGND #PWR03
 U 1 1 5D167DCF
@@ -3531,13 +3531,13 @@ Wire Notes Line
 Wire Notes Line
 	12950 7900 14600 7900
 Wire Notes Line
-	15500 2500 15500 3900
+	15950 8800 15950 10200
 Wire Notes Line
-	15500 3900 16950 3900
+	15950 10200 17400 10200
 Wire Notes Line
-	16950 3900 16950 2500
+	17400 10200 17400 8800
 Wire Notes Line
-	16950 2500 15500 2500
+	17400 8800 15950 8800
 Text Label 18850 7200 2    50   ~ 0
 GPIO26
 NoConn ~ 20100 3200
@@ -3742,8 +3742,6 @@ $EndComp
 Connection ~ 16800 1850
 Text Label 17400 1900 0    50   ~ 0
 GPIO27(GEN2)
-Text Label 17400 1800 0    50   ~ 0
-~DRDY
 Text Label 20100 2500 0    50   ~ 0
 START
 Text Label 17400 2700 0    50   ~ 0
@@ -3960,14 +3958,14 @@ Wire Notes Line
 $Comp
 L project_symbols:arduino_pro_mini_3V3_sparkfun U7
 U 1 1 5B86FA69
-P 17300 9500
-F 0 "U7" H 17675 9847 50  0000 C CNN
-F 1 "arduino_pro_mini_3V3_sparkfun" H 17675 9756 50  0000 C CNN
-F 2 "prj_lib_fp:arduino_pro_mini_3V3_sparkfun" H 17300 9500 50  0001 C CNN
-F 3 "https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMini8MHzv1.pdf" H 17300 9500 50  0001 C CNN
-F 4 "Sparkfun" H 17675 9665 50  0000 C CNN "Manufacturer"
-F 5 "https://www.sparkfun.com/products/11114" H 17675 9574 50  0000 C CNN "Retail"
-	1    17300 9500
+P 13500 8700
+F 0 "U7" H 13875 9047 50  0000 C CNN
+F 1 "arduino_pro_mini_3V3_sparkfun" H 13875 8956 50  0000 C CNN
+F 2 "prj_lib_fp:arduino_pro_mini_3V3_sparkfun" H 13500 8700 50  0001 C CNN
+F 3 "https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMini8MHzv1.pdf" H 13500 8700 50  0001 C CNN
+F 4 "Sparkfun" H 13875 8865 50  0000 C CNN "Manufacturer"
+F 5 "https://www.sparkfun.com/products/11114" H 13875 8774 50  0000 C CNN "Retail"
+	1    13500 8700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3981,43 +3979,80 @@ F 3 "" H 8500 4900 50  0001 C CNN
 	1    8500 4900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	18600 9900 18250 9900
 $Comp
 L project_symbols:DGND #PWR0126
 U 1 1 5B765BF7
-P 16700 9900
-F 0 "#PWR0126" H 16700 9650 50  0001 C CNN
-F 1 "DGND" H 16704 9745 50  0000 C CNN
-F 2 "" H 16700 9900 50  0001 C CNN
-F 3 "" H 16700 9900 50  0001 C CNN
-	1    16700 9900
+P 12900 9100
+F 0 "#PWR0126" H 12900 8850 50  0001 C CNN
+F 1 "DGND" H 12904 8945 50  0000 C CNN
+F 2 "" H 12900 9100 50  0001 C CNN
+F 3 "" H 12900 9100 50  0001 C CNN
+	1    12900 9100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	17100 9900 16700 9900
+	13300 9100 12900 9100
 $Comp
-L project_symbols:DVDD #PWR0115
-U 1 1 5B77F5F1
-P 18600 9900
-F 0 "#PWR0115" H 18600 9750 50  0001 C CNN
-F 1 "DVDD" V 18617 10028 50  0000 L CNN
-F 2 "" H 18600 9900 50  0001 C CNN
-F 3 "" H 18600 9900 50  0001 C CNN
-	1    18600 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
+L power:+5V #PWR0115
 U 1 1 5B7829F0
-P 18450 9600
-F 0 "#PWR?" H 18450 9450 50  0001 C CNN
-F 1 "+5V" H 18450 9740 50  0000 C CNN
-F 2 "" H 18450 9600 50  0000 C CNN
-F 3 "" H 18450 9600 50  0000 C CNN
-	1    18450 9600
+P 14650 8800
+F 0 "#PWR0115" H 14650 8650 50  0001 C CNN
+F 1 "+5V" H 14650 8940 50  0000 C CNN
+F 2 "" H 14650 8800 50  0000 C CNN
+F 3 "" H 14650 8800 50  0000 C CNN
+	1    14650 8800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	18450 9600 18250 9600
+	14650 8800 14450 8800
+NoConn ~ 14450 9100
+Text Label 13300 9200 2    50   ~ 0
+~DRDY
+NoConn ~ 17400 2200
+NoConn ~ 17400 2300
+NoConn ~ 17400 2400
+Text Label 14450 9700 0    50   ~ 0
+SPI_MISO
+Text Label 14450 9800 0    50   ~ 0
+SPI_MOSI
+NoConn ~ 17400 2700
+NoConn ~ 20100 2800
+NoConn ~ 20100 2500
+Text Label 14450 9600 0    50   ~ 0
+SPI_SCK
+Text Label 14450 9900 0    50   ~ 0
+SPI_SS
+Text Notes 12500 9450 0    39   ~ 0
+~DRDY \ntriggers falling \nedge interrupt on INT0. 
+Text Label 16050 9600 0    50   ~ 0
+START
+Text Label 14450 9500 0    50   ~ 0
+START
+Text Label 14450 9400 0    50   ~ 0
+~RESET
+Text Label 14450 9300 0    50   ~ 0
+~PWDN
+$Comp
+L project_symbols:DGND #PWR?
+U 1 1 5BB718D5
+P 14900 8900
+F 0 "#PWR?" H 14900 8650 50  0001 C CNN
+F 1 "DGND" H 14904 8745 50  0000 C CNN
+F 2 "" H 14900 8900 50  0001 C CNN
+F 3 "" H 14900 8900 50  0001 C CNN
+	1    14900 8900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14900 8900 14450 8900
+NoConn ~ 14450 9000
+NoConn ~ 13300 9000
+NoConn ~ 13300 9300
+NoConn ~ 13300 9400
+NoConn ~ 13300 9500
+NoConn ~ 13300 9600
+NoConn ~ 13300 9700
+NoConn ~ 13300 9800
+NoConn ~ 13300 9900
+NoConn ~ 14450 9200
 $EndSCHEMATC
