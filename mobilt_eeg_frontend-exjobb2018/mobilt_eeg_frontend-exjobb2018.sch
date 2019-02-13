@@ -161,7 +161,7 @@ Connection ~ 19150 1900
 Text Notes 18150 4750 0    50   ~ 0
 ID_SD and ID_SC PINS:\nThese pins are reserved for HAT ID EEPROM.\n\nAt boot time this I2C interface will be\ninterrogated to look for an EEPROM\nthat identifes the attached board and\nallows automagic setup of the GPIOs\n(and optionally, Linux drivers).\n\nDO NOT USE these pins for anything other\nthan attaching an I2C ID EEPROM. Leave\nunconnected if ID EEPROM not required.
 $Comp
-L Mechanical:Mounting_Hole MK1
+L mobilt_eeg_frontend-exjobb2018-rescue:Mounting_Hole-Mechanical MK1
 U 1 1 5834FB2E
 P -900 2250
 F 0 "MK1" H -800 2296 50  0000 L CNN
@@ -172,7 +172,7 @@ F 3 "" H -900 2250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK3
+L mobilt_eeg_frontend-exjobb2018-rescue:Mounting_Hole-Mechanical MK3
 U 1 1 5834FBEF
 P -450 2250
 F 0 "MK3" H -350 2296 50  0000 L CNN
@@ -183,7 +183,7 @@ F 3 "" H -450 2250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK2
+L mobilt_eeg_frontend-exjobb2018-rescue:Mounting_Hole-Mechanical MK2
 U 1 1 5834FC19
 P -900 2450
 F 0 "MK2" H -800 2496 50  0000 L CNN
@@ -194,7 +194,7 @@ F 3 "" H -900 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK4
+L mobilt_eeg_frontend-exjobb2018-rescue:Mounting_Hole-Mechanical MK4
 U 1 1 5834FC4F
 P -450 2450
 F 0 "MK4" H -350 2496 50  0000 L CNN
